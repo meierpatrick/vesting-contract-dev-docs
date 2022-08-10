@@ -4,10 +4,10 @@
 
 ## ⛓ Backend <a href="#smart-contracts" id="smart-contracts"></a>
 
-* [Overview](smart-contracts/overview/README.md)
-  * [Main Contract](smart-contracts/overview/overview.md)
-  * [Private Sale Contract](smart-contracts/overview/private-sale-contract.md)
-  * [Vesting Wallet Contract](smart-contracts/overview/vesting-wallet-contract.md)
+* [Architecture](smart-contracts/architecture/README.md)
+  * [Main Contract](smart-contracts/architecture/overview.md)
+  * [Private Sale Contract](smart-contracts/architecture/private-sale-contract.md)
+  * [Vesting Wallet Contract](smart-contracts/architecture/vesting-wallet-contract.md)
 
 ## 🖥 Frontend <a href="#application" id="application"></a>
 
