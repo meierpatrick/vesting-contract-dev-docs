@@ -37,7 +37,7 @@ The following standard defines the implementation of APIs for token smart contra
 
 <details>
 
-<summary>name () → string </summary>
+<summary><code>name () → string</code> </summary>
 
 Returns the name of the token - e.g. "MyToken".
 
