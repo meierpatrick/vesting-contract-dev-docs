@@ -2,6 +2,8 @@
 
 ### Architecture
 
+![](<../../.gitbook/assets/Purple Modern Gradient Steps How To Start A Business Tips Infographic (800 × 700 px).gif>)
+
 ![](<../../.gitbook/assets/My First Board (2).jpg>)
 
 **Programming languages:**
