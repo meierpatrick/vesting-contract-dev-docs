@@ -2,9 +2,9 @@
 
 ### Architecture
 
-![](<../../.gitbook/assets/My First Board (2).png>)
+![](<../../.gitbook/assets/My First Board (2).jpg>)
 
-#### Programming languages:
+**Programming languages:**
 
 * Solidity
 * Javascript
