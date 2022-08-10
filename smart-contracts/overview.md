@@ -11,7 +11,7 @@ The following standard defines the implementation of APIs for token smart contra
 ### The Characteristics
 
 * [x] Lives on the Binance Smart Chain
-* [x] Adds a lot functionality and value to apps
+* [x] Upgradeable
 * [x] Does not negatively impact a mobile device’s CPU, battery, or data consumption
 * [x] Plays well with other SDKs
 
