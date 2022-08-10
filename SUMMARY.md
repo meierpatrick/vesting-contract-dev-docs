@@ -6,8 +6,8 @@
 
 * [Architecture](<smart-contracts/overview (1).md>)
   * [Main Contract](smart-contracts/overview.md)
-  * [Post Delivery Private Sale](smart-contracts/post-delivery-private-sale.md)
-  * [Vesting Wallet Contract V1](smart-contracts/vesting-wallet-contract-v1.md)
+  * [Private Sale Contract](smart-contracts/architecture/private-sale-contract.md)
+  * [Vesting Wallet Contract](smart-contracts/architecture/vesting-wallet-contract.md)
 
 ## 🖥 Frontend <a href="#application" id="application"></a>
 
