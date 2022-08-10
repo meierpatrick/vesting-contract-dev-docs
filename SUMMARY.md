@@ -2,10 +2,6 @@
 
 * [Building a Vesting Protocol](README.md)
 
-## General
-
-* [Quick start](general/quick-start.md)
-
 ## ⛓ Backend <a href="#smart-contracts" id="smart-contracts"></a>
 
 * [Architecture](<smart-contracts/overview (1).md>)
