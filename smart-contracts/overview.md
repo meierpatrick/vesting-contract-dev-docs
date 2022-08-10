@@ -79,7 +79,7 @@ See [`IERC20.balanceOf`](https://docs.openzeppelin.com/contracts/4.x/api/token/e
 
 <details>
 
-<summary>getOwner() → uint256</summary>
+<summary>getOwner () → uint256</summary>
 
 Returns the bep20 token owner which is necessary for binding with bep2 token.
 
@@ -87,7 +87,7 @@ Returns the bep20 token owner which is necessary for binding with bep2 token.
 
 <details>
 
-<summary>transfer(address to, uint256 amount) → bool</summary>
+<summary>transfer (address to, uint256 amount) → bool</summary>
 
 
 
@@ -95,7 +95,7 @@ Returns the bep20 token owner which is necessary for binding with bep2 token.
 
 <details>
 
-<summary>transferFrom(address from, address to, uint256 amount) → bool</summary>
+<summary>transferFrom (address from, address to, uint256 amount) → bool</summary>
 
 Emits an [`Approval`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#IERC20-Approval-address-address-uint256-) event indicating the updated allowance. This is not required by the EIP. See the note at the beginning of [`ERC20`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#ERC20).
 
@@ -103,7 +103,7 @@ Emits an [`Approval`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc2
 
 <details>
 
-<summary>approve(address spender, uint256 amount) → bool</summary>
+<summary>approve (address spender, uint256 amount) → bool</summary>
 
 If `amount` is the maximum `uint256`, the allowance is not updated on `transferFrom`. This is semantically equivalent to an infinite approval.
 
@@ -111,7 +111,7 @@ If `amount` is the maximum `uint256`, the allowance is not updated on `transferF
 
 <details>
 
-<summary>allowance(address owner, address spender) → uint256</summary>
+<summary>allowance (address owner, address spender) → uint256</summary>
 
 See [`IERC20.allowance`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#IERC20-allowance-address-address-).
 
@@ -119,7 +119,7 @@ See [`IERC20.allowance`](https://docs.openzeppelin.com/contracts/4.x/api/token/e
 
 <details>
 
-<summary>Transfer(address from, address to, uint256 value)</summary>
+<summary>Transfer (address from, address to, uint256 value)</summary>
 
 Emitted when `value` tokens are moved from one account (`from`) to another (`to`).
 
@@ -129,7 +129,7 @@ Note that `value` may be zero.
 
 <details>
 
-<summary>Approval(address owner, address spender, uint256 value)</summary>
+<summary>Approval (address owner, address spender, uint256 value)</summary>
 
 Emitted when the allowance of a `spender` for an `owner` is set by a call to [`approve`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#IERC20-approve-address-uint256-). `value` is the new allowance.
 
