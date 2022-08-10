@@ -22,7 +22,6 @@
 
 * React
 
+#### Hosting Platform:
 
-
-* #### Hosting platform:
 * GitHub
