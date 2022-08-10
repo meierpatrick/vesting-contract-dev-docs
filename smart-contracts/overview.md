@@ -17,9 +17,9 @@ The following standard defines the implementation of APIs for token smart contra
 
 ### MainContract (MainContract.sol)
 
-**Functions:**
+<mark style="color:blue;">**Functions:**</mark>
 
-* `name()`
+* ``[`name()`](overview.md#name-string)``
 * `symbol()`
 * `decimals()`
 * `totalSupply()`
@@ -30,7 +30,23 @@ The following standard defines the implementation of APIs for token smart contra
 * `approve()`
 * `alllowance()`
 
-**Events:**
+<mark style="color:blue;">**Events:**</mark>
 
 * `Transfer()`
 * `Approval()`
+
+<details>
+
+<summary>name () → string </summary>
+
+Returns the name of the token - e.g. "MyToken".
+
+</details>
+
+<details>
+
+<summary>symbol () → string </summary>
+
+
+
+</details>
