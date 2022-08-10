@@ -10,8 +10,8 @@
 ## ⛓ Smart Contracts
 
 * [Overview](smart-contracts/overview.md)
-* [Main Contract](smart-contracts/overview-1.md)
-* [Private Sale Contract](smart-contracts/private-sale-contract.md)
+* [Main Contract](<smart-contracts/overview (1).md>)
+* [Post Delivery Private Sale](smart-contracts/post-delivery-private-sale.md)
 * [Vesting Wallet Contract V1](smart-contracts/vesting-wallet-contract-v1.md)
 
 ## Share Parachain <a href="#parachain" id="parachain"></a>
