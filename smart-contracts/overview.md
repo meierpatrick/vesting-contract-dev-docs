@@ -8,7 +8,7 @@ description: >-
 
 The following standard defines the implementation of APIs for token smart contracts. It is proposed by deriving the ERC20 protocol of Ethereum and provides the basic functionality to transfer tokens, allow tokens to be approved so they can be spent by another on-chain third party, and transfer between Binance Chain and Binance Smart Chain.
 
-### The Characteristics
+### [The Characteristics](overview.md#maincontract-maincontract.sol)
 
 * [x] Lives on the Binance Smart Chain
 * [x] Upgradeable
@@ -37,7 +37,7 @@ The following standard defines the implementation of APIs for token smart contra
 
 <details>
 
-<summary><code>name () → string</code> </summary>
+<summary>name () → string</summary>
 
 Returns the name of the token - e.g. "MyToken".
 
