@@ -21,7 +21,7 @@ The following standard defines the implementation of APIs for token smart contra
 
 * ``[`name()`](overview.md#name-string)``
 * ``[`symbol()`](overview.md#symbol-string)``
-* `decimals()`
+* ``[`decimals()`](overview.md#decimals-uint8)``
 * `totalSupply()`
 * `balanceOf()`
 * `getOwner()`
