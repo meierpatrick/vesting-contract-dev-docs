@@ -32,8 +32,8 @@ The following standard defines the implementation of APIs for token smart contra
 
 <mark style="color:blue;">**Events:**</mark>
 
-* `Transfer()`
-* `Approval()`
+* ``[`Transfer()`](overview.md#undefined)``
+* ``[`Approval()`](overview.md#undefined)``
 
 <details>
 
@@ -114,5 +114,23 @@ If `amount` is the maximum `uint256`, the allowance is not updated on `transferF
 <summary>allowance(address owner, address spender) → uint256</summary>
 
 See [`IERC20.allowance`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#IERC20-allowance-address-address-).
+
+</details>
+
+<details>
+
+<summary>Transfer(address from, address to, uint256 value)</summary>
+
+Emitted when `value` tokens are moved from one account (`from`) to another (`to`).
+
+Note that `value` may be zero.
+
+</details>
+
+<details>
+
+<summary>Approval(address owner, address spender, uint256 value)</summary>
+
+Emitted when the allowance of a `spender` for an `owner` is set by a call to [`approve`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#IERC20-approve-address-uint256-). `value` is the new allowance.
 
 </details>
