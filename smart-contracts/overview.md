@@ -22,13 +22,13 @@ The following standard defines the implementation of APIs for token smart contra
 * ``[`name()`](overview.md#name-string)``
 * ``[`symbol()`](overview.md#symbol-string)``
 * ``[`decimals()`](overview.md#decimals-uint8)``
-* `totalSupply()`
-* `balanceOf()`
-* `getOwner()`
-* `transfer()`
-* `transferFrom()`
-* `approve()`
-* `alllowance()`
+* ``[`totalSupply()`](overview.md#undefined)``
+* ``[`balanceOf(account)`](overview.md#undefined-1)``
+* ``[`getOwner()`](overview.md#undefined-2)``
+* ``[`transfer(to, amount)`](overview.md#transferfrom-address-from-address-to-uint256-amount-bool)``
+* ``[`transferFrom(from, to, amount)`](overview.md#undefined)``
+* ``[`approve(spender, amount)`](overview.md#undefined-1)``
+* ``[`alllowance(owner, spender)`](overview.md#undefined-2)``
 
 <mark style="color:blue;">**Events:**</mark>
 
@@ -58,5 +58,61 @@ Returns the symbol of the token, usually a shorter version of the name.
 Returns the number of decimals used to get its user representation. For example, if `decimals` equals `2`, a balance of `505` tokens should be displayed to a user as `5.05` (`505 / 10 ** 2`).
 
 Tokens usually opt for a value of 18, imitating the relationship between Ether and Wei. This is the value [`ERC20`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#ERC20) uses, unless this function is overridden.
+
+</details>
+
+<details>
+
+<summary>totalSupply () → uint256</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>balanceOf (address account) → uint256</summary>
+
+See [`IERC20.balanceOf`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#IERC20-balanceOf-address-).
+
+</details>
+
+<details>
+
+<summary>getOwner() → uint256</summary>
+
+Returns the bep20 token owner which is necessary for binding with bep2 token.
+
+</details>
+
+<details>
+
+<summary>transfer(address to, uint256 amount) → bool</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>transferFrom(address from, address to, uint256 amount) → bool</summary>
+
+Emits an [`Approval`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#IERC20-Approval-address-address-uint256-) event indicating the updated allowance. This is not required by the EIP. See the note at the beginning of [`ERC20`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#ERC20).
+
+</details>
+
+<details>
+
+<summary>approve(address spender, uint256 amount) → bool</summary>
+
+If `amount` is the maximum `uint256`, the allowance is not updated on `transferFrom`. This is semantically equivalent to an infinite approval.
+
+</details>
+
+<details>
+
+<summary>allowance(address owner, address spender) → uint256</summary>
+
+See [`IERC20.allowance`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#IERC20-allowance-address-address-).
 
 </details>
