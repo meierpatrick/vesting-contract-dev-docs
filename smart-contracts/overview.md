@@ -89,7 +89,11 @@ Returns the bep20 token owner which is necessary for binding with bep2 token.
 
 <summary>transfer (address to, uint256 amount) → bool</summary>
 
+Moves `amount` tokens from the caller’s account to `to`.
 
+Returns a boolean value indicating whether the operation succeeded.
+
+Emits a [`Transfer`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#IERC20-Transfer-address-address-uint256-) event.
 
 </details>
 
