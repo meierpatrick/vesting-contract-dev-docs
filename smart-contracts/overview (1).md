@@ -1,3 +1,3 @@
 # Architecture
 
-![](<../.gitbook/assets/My First Board.jpg>)
+![](../.gitbook/assets/contract-architecture.jpg)
