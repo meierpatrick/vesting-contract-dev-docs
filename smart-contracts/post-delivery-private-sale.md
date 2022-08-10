@@ -4,12 +4,10 @@ The following standard defines the implementation of APIs for token smart contra
 
 ### The Characteristics
 
-* Lives on the Binance Smart Chain
-* Adds a lot functionality and value to apps
-* Does not negatively impact a mobile device’s CPU, battery, or data consumption
-* Plays well with other SDKs
-
-
+* [x] Lives on the Binance Smart Chain
+* [x] Adds a lot functionality and value to apps
+* [x] Does not negatively impact a mobile device’s CPU, battery, or data consumption
+* [x] Plays well with other SDKs
 
 ### PrivateSale (PrivateSale.sol)
 

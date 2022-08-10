@@ -10,10 +10,9 @@ The following standard defines the implementation of APIs for token smart contra
 
 ### The Characteristics
 
-* [x] Lives on the Binance Smart Chain
-* [x] Upgradeable
-* [x] Does not negatively impact a mobile device’s CPU, battery, or data consumption
-* [x] Plays well with other SDKs
+* [x] BEP20 standard that implements the interface IBEP20
+* [x] Upgradeable BEP20 contract
+* [x] Fixed supply
 
 ### MainContract (MainContract.sol)
 
