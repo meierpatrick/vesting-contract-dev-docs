@@ -1,11 +1,10 @@
 ---
 description: >-
   This documentation will guide you through the process of creating a
-  decentralized charitable foundation protocol which aims to provide donors
-  absolute control over donations.
+  decentralized protocol that provides a secured vesting mechanism.
 ---
 
-# Decentralized Charitable Foundation Process Protocol
+# Building a Vesting Protocol
 
 ## About this Documentation
 

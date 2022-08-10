@@ -1,15 +1,14 @@
 # Table of contents
 
-* [Decentralized Charitable Foundation Process Protocol](README.md)
+* [Building a Vesting Protocol](README.md)
 
 ## General
 
-* [Getting Started](general/getting-started.md)
-* [Quick Start](general/quick-start.md)
+* [Quick start](general/quick-start.md)
 
-## Share Blockchain
+## ⛓ Smart Contracts
 
-* [Overview](share-blockchain/overview.md)
+* [Overview](smart-contracts/overview.md)
 
 ## Share Parachain <a href="#parachain" id="parachain"></a>
 
