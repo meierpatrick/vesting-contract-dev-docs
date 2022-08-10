@@ -45,7 +45,7 @@ Returns the name of the token - e.g. "MyToken".
 
 <details>
 
-<summary><a href="overview.md#symbol-string">symbol () → string </a></summary>
+<summary>symbol () → string </summary>
 
 Returns the symbol of the token, usually a shorter version of the name.
 
