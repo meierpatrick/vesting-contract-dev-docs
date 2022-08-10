@@ -19,7 +19,7 @@ The following standard defines the implementation of APIs for token smart contra
 
 <mark style="color:blue;">**Functions:**</mark>
 
-* ``[`name()`](overview.md#symbol-string)``
+* ``[`name()`](overview.md#name-string)``
 * `symbol()`
 * `decimals()`
 * `totalSupply()`
