@@ -20,7 +20,7 @@ The following standard defines the implementation of APIs for token smart contra
 <mark style="color:blue;">**Functions:**</mark>
 
 * ``[`name()`](overview.md#name-string)``
-* `symbol()`
+* ``[`symbol()`](overview.md#symbol-string)``
 * `decimals()`
 * `totalSupply()`
 * `balanceOf()`
@@ -47,6 +47,6 @@ Returns the name of the token - e.g. "MyToken".
 
 <summary>symbol () → string </summary>
 
-
+Returns the symbol of the token, usually a shorter version of the name.
 
 </details>
