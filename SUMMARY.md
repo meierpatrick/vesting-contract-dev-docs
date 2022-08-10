@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Building a Vesting Protocol](README.md)
+* [Overview](README.md)
 
 ## ⛓ Backend <a href="#smart-contracts" id="smart-contracts"></a>
 
@@ -11,5 +11,5 @@
 
 ## 🖥 Frontend <a href="#application" id="application"></a>
 
-* [Architecture](application/atomic-swap/README.md)
+* [Architecture](parachain/atomic-swap.md)
   * [React](application/atomic-swap/react.md)

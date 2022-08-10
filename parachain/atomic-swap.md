@@ -18,11 +18,11 @@ There will be validators at each bridge to verify the atomic swaps, when **75%**
 
 * Ethereum -> Binance smart chain
 
-![](../../.gitbook/assets/bsctoeth.png)
+![](../.gitbook/assets/bsctoeth.png)
 
 * Binance smart chain -> Ethereum
 
-![](../../.gitbook/assets/bsctoeth.png)
+![](../.gitbook/assets/bsctoeth.png)
 
 
 
