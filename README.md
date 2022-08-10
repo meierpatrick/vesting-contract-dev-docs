@@ -25,9 +25,3 @@ If you are running into some issue, check the **Support** section to find out ho
 ### Recap of brief
 
 Sendable Receivable Interact with dapps // Pancakeswap metamask etc Lockable for Vesting Period Direct creation of max supply(no stacking, no mining e.g.) Lockable vesting Period explain: There will be a private sale. After the Private sale it should be possible for me to distribute the token thrue //send or smartcontract, but this token should be somehow or over a dapp or any idea what coming locked for a 1 year period. The 1 year locking period should be only for the private sale tokens. Maybe we could define a second wallet where the tokens when send from (not creating contract) the tokens will be locked for xy time amount.(Just a idea)
-
-### Process and strategy
-
-View the entire documentation to get an idea about the project.
-
-###

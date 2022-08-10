@@ -1,4 +1,4 @@
-# Vesting Wallet Contract V1
+# Vesting Wallet Contract
 
 
 
