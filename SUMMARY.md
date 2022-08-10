@@ -4,6 +4,7 @@
 
 ## General
 
+* [Architecture](general/architecture.md)
 * [Quick start](general/quick-start.md)
 
 ## ⛓ Smart Contracts

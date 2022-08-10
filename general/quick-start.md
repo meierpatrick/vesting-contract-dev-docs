@@ -14,6 +14,6 @@ cd example-dapp
 yarn install
 ```
 
-The above will clone the Share repository and install the necessary dependencies.
+The above will clone the repository and install the necessary dependencies.
 
-#### Check out the Quick Start guide next to learn how to quickly set everything up and get your first app up and running!
+#### Check out the rest to learn how to quickly set everything up and interact with the dapp
