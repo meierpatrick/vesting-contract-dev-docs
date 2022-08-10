@@ -1,4 +1,6 @@
-# Architecture
+# Overview
+
+### Architecture
 
 #### Programming languages:
 
@@ -27,4 +29,4 @@
 
 * GitHub
 
-![](../.gitbook/assets/contract-architecture.jpg)
+![](../../.gitbook/assets/contract-architecture.jpg)
