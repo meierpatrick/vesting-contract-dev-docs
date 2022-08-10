@@ -32,5 +32,3 @@
 #### Hosting platform:
 
 * GitHub
-
-![](../../.gitbook/assets/contract-architecture.jpg)
