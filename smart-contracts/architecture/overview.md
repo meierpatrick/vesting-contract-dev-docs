@@ -8,6 +8,8 @@ description: >-
 
 The following standard defines the implementation of APIs for token smart contracts. It is proposed by deriving the ERC20 protocol of Ethereum and provides the basic functionality to transfer tokens, allow tokens to be approved so they can be spent by another on-chain third party, and transfer between Binance Chain and Binance Smart Chain.
 
+![](<../../.gitbook/assets/Purple Modern Gradient Steps How To Start A Business Tips Infographic.png>)
+
 ### The Characteristics
 
 * [x] BEP20 standard that implements the interface IBEP20
