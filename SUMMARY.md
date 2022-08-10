@@ -4,20 +4,18 @@
 
 ## General
 
-* [Architecture](general/architecture.md)
 * [Quick start](general/quick-start.md)
 
-## ⛓ Smart Contracts
+## ⛓ Backend <a href="#smart-contracts" id="smart-contracts"></a>
 
-* [Overview](<smart-contracts/overview (1).md>)
-* [Main Contract](smart-contracts/overview.md)
-* [Post Delivery Private Sale](smart-contracts/post-delivery-private-sale.md)
-* [Vesting Wallet Contract V1](smart-contracts/vesting-wallet-contract-v1.md)
+* [Architecture](smart-contracts/architecture/README.md)
+  * [Main Contract](smart-contracts/architecture/overview.md)
+  * [Post Delivery Private Sale](smart-contracts/architecture/post-delivery-private-sale.md)
+  * [Vesting Wallet Contract V1](smart-contracts/architecture/vesting-wallet-contract-v1.md)
 
-## Share Parachain <a href="#parachain" id="parachain"></a>
+## 🖥 Frontend <a href="#application" id="application"></a>
 
-* [⛓ Atomic Swap](parachain/atomic-swap.md)
-* [🏗 More coming soon!](parachain/more-coming-soon.md)
+* [Architecture](application/atomic-swap.md)
 
 ## Contributing <a href="#contributing-to-usdshare" id="contributing-to-usdshare"></a>
 
