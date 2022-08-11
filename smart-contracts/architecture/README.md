@@ -10,8 +10,8 @@
 [private-sale-contract.md](private-sale-contract.md)
 {% endcontent-ref %}
 
-{% content-ref url="vesting-wallet-contract.md" %}
-[vesting-wallet-contract.md](vesting-wallet-contract.md)
+{% content-ref url="vesting-controller-contract.md" %}
+[vesting-controller-contract.md](vesting-controller-contract.md)
 {% endcontent-ref %}
 
 **Programming languages:**
