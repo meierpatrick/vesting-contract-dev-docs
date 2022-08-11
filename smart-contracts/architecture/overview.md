@@ -18,8 +18,6 @@ The following standard defines the implementation of APIs for token smart contra
 * [x] Solidity best practices
 * [x] Binance verified contracts
 
-![](<../../.gitbook/assets/Purple Modern Gradient Steps How To Start A Business Tips Infographic.png>)
-
 ### MainContract (MainContract.sol)
 
 <mark style="color:blue;">**Functions:**</mark>
