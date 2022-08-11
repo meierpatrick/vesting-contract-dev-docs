@@ -147,8 +147,6 @@ Emitted when the allowance of a `spender` for an `owner` is set by a call to [`a
 
 ```solidity
 import "./IBEP20.sol";
-import "./PrivateSale.sol";
-import "./VestingController.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Context.sol";
