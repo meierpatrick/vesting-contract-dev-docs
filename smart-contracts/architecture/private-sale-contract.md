@@ -2,8 +2,6 @@
 
 ## About the Private Sale
 
-![](../../.gitbook/assets/home.gif)
-
 
 
 ![](../../.gitbook/assets/privateSale.gif)
