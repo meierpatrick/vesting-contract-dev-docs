@@ -173,17 +173,9 @@ Emitted when the allowance of a `spender` for an `owner` is set by a call to [`a
 
 <details>
 
-<summary></summary>
+<summary>totalSupply() → uint256</summary>
 
-
-
-</details>
-
-<details>
-
-<summary></summary>
-
-
+Returns the amount of tokens in existence.
 
 </details>
 
@@ -221,33 +213,53 @@ Emitted when the allowance of a `spender` for an `owner` is set by a call to [`a
 
 <details>
 
-<summary></summary>
+<summary>balanceOf(address account) → uint256</summary>
 
-
-
-</details>
-
-<details>
-
-<summary></summary>
-
-
+Returns the amount of tokens owned by account.
 
 </details>
 
 <details>
 
-<summary></summary>
+<summary>transfer(address recipient, uint256 amount) → bool</summary>
 
+Moves `amount` tokens from the caller’s account to `recipient`.
 
+Returns a boolean value indicating whether the operation succeeded.
+
+Emits a [`Transfer`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#IERC20-Transfer-address-address-uint256-) event.
 
 </details>
 
 <details>
 
-<summary></summary>
+<summary>allowance(address owner, address spender) → uint256</summary>
 
+Returns the remaining number of tokens that `spender` will be allowed to spend on behalf of `owner` through [`transferFrom`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#IERC20-transferFrom-address-address-uint256-). This is zero by default.
 
+This value changes when [`approve`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#IERC20-approve-address-uint256-) or [`transferFrom`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#IERC20-transferFrom-address-address-uint256-) are called.
+
+</details>
+
+<details>
+
+<summary>approve(address spender, uint256 amount) → bool</summary>
+
+Sets `amount` as the allowance of `spender` over the caller’s tokens.
+
+Returns a boolean value indicating whether the operation succeeded.
+
+</details>
+
+<details>
+
+<summary>transferFrom(address sender, address recipient, uint256 amount) → bool</summary>
+
+Moves `amount` tokens from `sender` to `recipient` using the allowance mechanism. `amount` is then deducted from the caller’s allowance.
+
+Returns a boolean value indicating whether the operation succeeded.
+
+Emits a [`Transfer`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#IERC20-Transfer-address-address-uint256-) event.
 
 </details>
 
