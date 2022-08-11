@@ -10,7 +10,7 @@ description: >-
 
 ### About the Vesting Controller Contract
 
-A token holder contract that can release its token balance gradually like a typical vesting scheme, with a cliff and vesting period. Optionally revocable by the owner.
+A Vesting Controller contract that can release its token balance gradually like a typical vesting scheme, with a cliff and vesting period. Optionally revocable by the owner.
 
 ### The Characteristics
 
