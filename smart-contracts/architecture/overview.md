@@ -173,21 +173,21 @@ Emitted when the allowance of a `spender` for an `owner` is set by a call to [`a
 
 <mark style="color:blue;">**Functions:**</mark>
 
-* totalSupply()
-* decimals()
-* symbol()
-* name()
-* getOwner()
-* balanceOf()
-* transfer()
-* allowance()
-* approve()
-* transferFrom()
+* [totalSupply()](overview.md#totalsupply-uint256-1)
+* [decimals()](overview.md#decimals-uint8-1)
+* [symbol()](overview.md#symbol-string-1)
+* [name()](overview.md#name-string-1)
+* [getOwner()](overview.md#getowner-address-uint256)
+* [balanceOf()](overview.md#balanceof-address-account-uint256-1)
+* [transfer()](overview.md#transfer-address-recipient-uint256-amount-bool)
+* [allowance()](overview.md#allowance-address-owner-address-spender-uint256-1)
+* [approve()](overview.md#approve-address-spender-uint256-amount-bool-1)
+* [transferFrom()](overview.md#transferfrom-address-sender-address-recipient-uint256-amount-bool)
 
 <mark style="color:blue;">**Events:**</mark>
 
-* Transfer()
-* Approval()
+* [Transfer()](overview.md#transfer-address-from-address-to-uint256-value-1)
+* [Approval()](overview.md#approval-address-owner-address-spender-uint256-value-1)
 
 <details>
 
