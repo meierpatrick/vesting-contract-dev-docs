@@ -25,14 +25,14 @@ I have followed general OpenZepellin guidelines to build the contracts.
 
 ### Core: PrivateSale (PrivateSale.sol)
 
-**Modifiers:**
+<mark style="color:blue;">**Modifiers:**</mark>
 
-* [nonReentrant()](private-sale-contract.md#undefined)
+* <mark style="color:blue;"></mark>[nonReentrant()](private-sale-contract.md#undefined)
 * [onlyWhitelisted()](private-sale-contract.md#undefined)
 
-**Functions:**
+<mark style="color:blue;">**Functions:**</mark>
 
-* [fallback()](private-sale-contract.md#fallback)
+* <mark style="color:blue;"></mark>[fallback()](private-sale-contract.md#fallback)
 * [token()](private-sale-contract.md#undefined)
 * [wallet()](private-sale-contract.md#undefined-1)
 * [rate()](private-sale-contract.md#undefined-2)
@@ -50,12 +50,11 @@ I have followed general OpenZepellin guidelines to build the contracts.
 * [getTokenAmount()](private-sale-contract.md#undefined-3)
 * [forwardFunds()](private-sale-contract.md#undefined)
 
-**Events:**
+<mark style="color:blue;">**Events:**</mark>
 
-* [TokensPurchased(purchaser, beneficiary, value, amount)](private-sale-contract.md#tokenspurchased-address-purchaser-address-beneficiary-uint256-value-uint256-amount)
-*
-* [WhitelistedAdded(account)](https://docs.openzeppelin.com/contracts/2.x/api/access#WhitelistedRole-WhitelistedAdded-address-)
-* [WhitelistedRemoved(account)](https://docs.openzeppelin.com/contracts/2.x/api/access#WhitelistedRole-WhitelistedRemoved-address-)
+* <mark style="color:blue;"></mark>[TokensPurchased(purchaser, beneficiary, value, amount)](private-sale-contract.md#tokenspurchased-address-purchaser-address-beneficiary-uint256-value-uint256-amount)
+* [WhitelistedAdded(account)](private-sale-contract.md#undefined)
+* [WhitelistedRemoved(account)](private-sale-contract.md#undefined)
 
 <details>
 
@@ -221,20 +220,48 @@ Determines how ETH is stored/forwarded on purchases.
 
 </details>
 
+<details>
+
+<summary>WhitelistedAdded(address account)</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>WhitelistedRemoved(address account)</summary>
+
+
+
+</details>
+
 ### Validation: TimedPrivateSale (TimedPrivateSale.sol)
 
-**Functions:**
+<mark style="color:blue;">**Modifiers:**</mark>
 
-* [openingTime()](private-sale-contract.md#undefined)
+* [onlyWhileOpen()](private-sale-contract.md#undefined)
+
+<mark style="color:blue;">**Functions:**</mark>
+
+* <mark style="color:blue;"></mark>[openingTime()](private-sale-contract.md#undefined)
 * [closingTime()](private-sale-contract.md#undefined-1)
 * [isOpen()](private-sale-contract.md#undefined-2)
 * [hasClosed()](private-sale-contract.md#undefined-3)
 * [preValidatePurchase(beneficiary, weiAmount)](private-sale-contract.md#postvalidatepurchase-address-beneficiary-uint256-weiamount)
 * [extendTime(newClosingTime)](https://docs.openzeppelin.com/contracts/2.x/api/crowdsale#TimedCrowdsale-\_extendTime-uint256-)
 
-**Events:**
+<mark style="color:blue;">**Events:**</mark>
 
-* [TimedPrivateSaleExtended(prevClosingTime, newClosingTime)](private-sale-contract.md#undefined)
+* <mark style="color:blue;"></mark>[TimedPrivateSaleExtended(prevClosingTime, newClosingTime)](private-sale-contract.md#undefined)
+
+<details>
+
+<summary>onlyWhileOpen()</summary>
+
+Reverts if not in crowdsale time range.
+
+</details>
 
 <details>
 
@@ -294,9 +321,9 @@ Extend crowdsale.
 
 ### Distribution: PostDelivery (PostDelivery.sol)
 
-**Functions:**
+<mark style="color:blue;">**Functions:**</mark>
 
-* [withdrawTokens(beneficiary)](private-sale-contract.md#withdrawtokens-address-beneficiary)
+* <mark style="color:blue;"></mark>[withdrawTokens(beneficiary)](private-sale-contract.md#withdrawtokens-address-beneficiary)
 * [balanceOf(account)](private-sale-contract.md#balanceof-address-account-uint256)
 * [processPurchase(beneficiary, tokenAmount)](private-sale-contract.md#processpurchase-address-beneficiary-uint256-tokenamount-1)
 
