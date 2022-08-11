@@ -19,6 +19,10 @@ The following standard defines the implementation of APIs for token smart contra
 * [x] Does not negatively impact a mobile device’s CPU, battery, or data consumption
 * [x] Plays well with other SDKs
 
+{% hint style="info" %}
+I have followed general OpenZepellin guidelines to build the contracts.
+{% endhint %}
+
 ### Core: PrivateSale (PrivateSale.sol)
 
 **Modifiers:**
