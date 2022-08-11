@@ -4,9 +4,11 @@ description: >-
   decentralized protocol that provides a secured vesting mechanism.
 ---
 
-# Building a Vesting Protocol
+# Overview
 
 ## About this Documentation
+
+![](.gitbook/assets/firstBG.gif)
 
 A set of helpful software-building tools for blockchain based businesses makes integrating with customers much easier. Thorough this documentation we explain how our SDK works and what features you can expect in the future.
 
