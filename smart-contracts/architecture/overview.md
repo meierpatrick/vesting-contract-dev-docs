@@ -31,7 +31,7 @@ I have followed general OpenZepellin guidelines to build the contracts.
 
 <mark style="color:blue;">**Functions:**</mark>
 
-* constructor(name, symbol, decimals, address owner)
+* [constructor(name, symbol, decimals)](overview.md#constructor-string-name-string-symbol-uint8-decimals)
 * [name()](overview.md#name-string)
 * [symbol()](overview.md#symbol-string)
 * [decimals()](overview.md#decimals-uint8)
@@ -42,12 +42,20 @@ I have followed general OpenZepellin guidelines to build the contracts.
 * [transferFrom(from, to, amount)](overview.md#undefined)
 * [approve(spender, amount)](overview.md#undefined-1)
 * [alllowance(owner, spender)](overview.md#undefined-2)
-* initialize(name, symbol, decimals, address owner)
+* [initialize(name, symbol, decimals)](overview.md#undefined)
 
 <mark style="color:blue;">**Events:**</mark>
 
 * [Transfer()](overview.md#transfer-address-from-address-to-uint256-value)
 * [Approval()](overview.md#approval-address-owner-address-spender-uint256-value)
+
+<details>
+
+<summary>constructor(string name, string symbol, uint8 decimals)</summary>
+
+Sets the values for `name`, `symbol`, and `decimals`. All three of these values are immutable: they can only be set once during construction.
+
+</details>
 
 <details>
 
@@ -150,6 +158,14 @@ Note that `value` may be zero.
 <summary>Approval (address owner, address spender, uint256 value)</summary>
 
 Emitted when the allowance of a `spender` for an `owner` is set by a call to [`approve`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#IERC20-approve-address-uint256-). `value` is the new allowance.
+
+</details>
+
+<details>
+
+<summary>initialize(string name, string symbol, uint8 decimals)</summary>
+
+
 
 </details>
 
