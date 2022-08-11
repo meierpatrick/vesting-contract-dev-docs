@@ -29,6 +29,10 @@ I have followed general OpenZepellin guidelines to build the contracts.
 
 ### Core: VestingController (VestingController.sol)
 
+<mark style="color:blue;">**Modifiers:**</mark>
+
+* onlyOwner()
+
 <mark style="color:blue;">**Functions:**</mark>
 
 * constructor (beneficiary, start, cliffDuration, duration, revocable)
@@ -45,7 +49,6 @@ I have followed general OpenZepellin guidelines to build the contracts.
 * isOwner()
 * renounceOwnership()
 * transferOwnership(newOwner)
-*
 
 <mark style="color:blue;">**Events:**</mark>
 
