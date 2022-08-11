@@ -43,7 +43,7 @@ The following standard defines the implementation of APIs for token smart contra
 
 **Events:**
 
-* [TokensPurchased()](private-sale-contract.md#undefined)
+* [TokensPurchased(purchaser, beneficiary, value, amount)](private-sale-contract.md#tokenspurchased-address-purchaser-address-beneficiary-uint256-value-uint256-amount)
 
 <details>
 
