@@ -14,10 +14,10 @@ The Private Sale contract is a base contract for managing the token private sale
 
 ### The Characteristics
 
-* [x] Lives on the Binance Smart Chain
-* [x] Adds a lot functionality and value to apps
-* [x] Does not negatively impact a mobile device’s CPU, battery, or data consumption
-* [x] Plays well with other SDKs
+* [x] Get funded by the [MainContract.sol](overview.md#about-the-main-contract)
+* [x] Able to set up post delivery schedules
+* [x] Solidity best practices
+* [x] Binance verified contracts
 
 ### Core: PrivateSale (PrivateSale.sol)
 
