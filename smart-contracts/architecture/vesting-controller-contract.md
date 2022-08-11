@@ -41,8 +41,46 @@ I have followed general OpenZepellin guidelines to build the contracts.
 * revoked(token)
 * release(token)
 * revoke(token)
+* owner()
+* isOwner()
+* renounceOwnership()
+* transferOwnership(newOwner)
+*
 
 <mark style="color:blue;">**Events:**</mark>
 
 * TokensReleased(token, amount)
 * TokensVestingRevoked(token)
+* OwnershipTransferred(previousOwner, newOwner)
+
+<details>
+
+<summary></summary>
+
+
+
+</details>
+
+<details>
+
+<summary></summary>
+
+
+
+</details>
+
+<details>
+
+<summary></summary>
+
+
+
+</details>
+
+<details>
+
+<summary></summary>
+
+
+
+</details>
