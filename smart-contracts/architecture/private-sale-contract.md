@@ -1,8 +1,12 @@
+---
+description: >-
+  The IBEP20 interface standard to create token contracts on Binance Smart
+  Chain.
+---
+
 # Private Sale Contract
 
 ## About the Private Sale
-
-
 
 ![](../../.gitbook/assets/privateSale.gif)
 
@@ -19,23 +23,23 @@ The following standard defines the implementation of APIs for token smart contra
 
 **Functions:**
 
-* ``[`fallback()`](private-sale-contract.md#the-fallback-function)``
-* ``[`token()`](private-sale-contract.md#undefined)``
-* ``[`wallet()`](private-sale-contract.md#undefined-1)``
-* ``[`rate()`](private-sale-contract.md#undefined-2)``
-* ``[`weiRaised()`](private-sale-contract.md#undefined-3)``
-* ``[`buyTokens()`](private-sale-contract.md#undefined)``
-* ``[`preValidatePurchase()`](private-sale-contract.md#undefined-1)``
-* ``[`postValidatePurchase()`](private-sale-contract.md#undefined-2)``
-* ``[`deliverTokens()`](private-sale-contract.md#undefined)``
-* ``[`proccessPurchase()`](private-sale-contract.md#undefined-1)``
-* ``[`updatePurchasingState()`](private-sale-contract.md#undefined-2)``
-* ``[`getTokenAmount()`](private-sale-contract.md#undefined-3)``
-* ``[`forwardFunds()`](private-sale-contract.md#undefined)``
+* [fallback()](private-sale-contract.md#fallback)
+* [token()](private-sale-contract.md#undefined)
+* [wallet()](private-sale-contract.md#undefined-1)
+* [rate()](private-sale-contract.md#undefined-2)
+* [weiRaised()](private-sale-contract.md#undefined-3)
+* [buyTokens()](private-sale-contract.md#undefined)
+* [preValidatePurchase()](private-sale-contract.md#undefined-1)
+* [postValidatePurchase()](private-sale-contract.md#undefined-2)
+* [deliverTokens()](private-sale-contract.md#undefined)
+* [proccessPurchase()](private-sale-contract.md#undefined-1)
+* [updatePurchasingState()](private-sale-contract.md#undefined-2)
+* [getTokenAmount()](private-sale-contract.md#undefined-3)
+* [forwardFunds()](private-sale-contract.md#undefined)
 
 **Events:**
 
-* ``[`TokensPurchased()`](private-sale-contract.md#undefined)``
+* [TokensPurchased()](private-sale-contract.md#undefined)
 
 <details>
 
