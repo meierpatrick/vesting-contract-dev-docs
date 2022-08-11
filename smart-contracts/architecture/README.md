@@ -2,9 +2,7 @@
 
 ### Architecture
 
-![Smart Contract Architecture](<../../.gitbook/assets/Purple Modern Gradient Steps How To Start A Business Tips Infographic (800 × 700 px) (800 × 500 px).gif>)
-
-![](<../../.gitbook/assets/My First Board (2).jpg>)
+![Smart Contract Architecture](<../../.gitbook/assets/My First Board (2).jpg>)
 
 **Programming languages:**
 
