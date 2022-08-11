@@ -15,7 +15,6 @@ The following standard defines the implementation of APIs for token smart contra
 ### The Characteristics
 
 * [x] BEP20 standard that implements the interface IBEP20
-* [x] Payable and receivable
 * [x] Upgradeable contract using initializers​
 * [x] Solidity best practices
 * [x] Binance verified contracts
