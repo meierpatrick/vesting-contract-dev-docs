@@ -10,7 +10,7 @@ description: >-
 
 ### About the Private Sale Contract
 
-The Private Sale contract is a base contract for managing the token private sale, allowing investors to purchase tokens using bnb. This contract implements additional functionality and/or custom behavior. Only `whitelisted` users can contribute. The `processPurchase` function in the PostDelivery contract handles the payout schedule.&#x20;
+The Private Sale contract is a base contract for managing the token private sale, allowing investors to purchase tokens using bnb. This contract implements additional functionality and/or custom behavior. Only `whitelisted` users can contribute. The `processPurchase` function in the PostDelivery contract handles the post payout delivery schedule.
 
 ### The Characteristics
 
