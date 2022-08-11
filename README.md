@@ -6,9 +6,9 @@ description: >-
 
 # Overview
 
-## About this Documentation
-
 ![](.gitbook/assets/home.gif)
+
+### About this Documentation
 
 A set of helpful software-building tools for blockchain based businesses makes integrating with customers much easier. Thorough this documentation we explain how our SDK works and what features you can expect in the future.
 
