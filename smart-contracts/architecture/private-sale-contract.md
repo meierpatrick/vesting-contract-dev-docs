@@ -238,6 +238,10 @@ Determines how ETH is stored/forwarded on purchases.
 
 ### Validation: TimedPrivateSale (TimedPrivateSale.sol)
 
+**Modifiers:**
+
+* [onlyWhileOpen()](private-sale-contract.md#undefined)
+
 **Functions:**
 
 * [openingTime()](private-sale-contract.md#undefined)
@@ -250,6 +254,14 @@ Determines how ETH is stored/forwarded on purchases.
 **Events:**
 
 * [TimedPrivateSaleExtended(prevClosingTime, newClosingTime)](private-sale-contract.md#undefined)
+
+<details>
+
+<summary>onlyWhileOpen()</summary>
+
+Reverts if not in crowdsale time range.
+
+</details>
 
 <details>
 
