@@ -157,13 +157,69 @@ Determines how ETH is stored/forwarded on purchases.
 
 **Functions:**
 
-* `openingTime()`
-* `closingTime()`
-* `isOpen()`
-* `hasClosed()`
-* `preValidatePurchase()`
+* [openingTime()](private-sale-contract.md#undefined)
+* [closingTime()](private-sale-contract.md#undefined-1)
+* [isOpen()](private-sale-contract.md#undefined-2)
+* [hasClosed()](private-sale-contract.md#undefined-3)
+* [preValidatePurchase()](private-sale-contract.md#undefined-4)
 
 **Events:**
 
-* `Transfer()`
-* `Approval()`
+* Transfer()
+* Approval()
+
+<details>
+
+<summary>openingTime () → uint256</summary>
+
+The private sale opening time.
+
+</details>
+
+<details>
+
+<summary>closingTime () → uint256</summary>
+
+The private sale ending time (1 year).
+
+</details>
+
+<details>
+
+<summary>isOpen () → bool</summary>
+
+`true` if the private sale is open, `false` otherwise.
+
+</details>
+
+<details>
+
+<summary>hasClosed () → bool</summary>
+
+Whether private sale period has elapsed
+
+</details>
+
+<details>
+
+<summary>preValidatePurchase ()</summary>
+
+Extend parent behavior requiring to be within the contributing period
+
+</details>
+
+<details>
+
+<summary></summary>
+
+
+
+</details>
+
+<details>
+
+<summary></summary>
+
+
+
+</details>
