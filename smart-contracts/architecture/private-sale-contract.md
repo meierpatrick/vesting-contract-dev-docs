@@ -28,6 +28,7 @@ I have followed general OpenZepellin guidelines to build the contracts.
 **Modifiers:**
 
 * [nonReentrant()](private-sale-contract.md#undefined)
+* [onlyWhitelisted()](private-sale-contract.md#undefined)
 
 **Functions:**
 
@@ -37,7 +38,11 @@ I have followed general OpenZepellin guidelines to build the contracts.
 * [rate()](private-sale-contract.md#undefined-2)
 * [weiRaised()](private-sale-contract.md#undefined-3)
 * [buyTokens()](private-sale-contract.md#undefined)
-* [preValidatePurchase()](private-sale-contract.md#undefined-1)
+* [isWhitelisted(account)](private-sale-contract.md#iswhitelisted-address-account-bool)
+* [addWhitelisted(account)](private-sale-contract.md#undefined)
+* [removeWhitelisted(account)](private-sale-contract.md#removewhitelisted-address-account)
+* [renounceWhitelisted()](private-sale-contract.md#undefined)
+* [preValidatePurchase(beneficiary, weiAmount)](private-sale-contract.md#prevalidatepurchase-address-beneficiary-uint256-weiamount)
 * [postValidatePurchase()](private-sale-contract.md#undefined-2)
 * [deliverTokens()](private-sale-contract.md#undefined)
 * [proccessPurchase()](private-sale-contract.md#undefined-1)
@@ -48,6 +53,8 @@ I have followed general OpenZepellin guidelines to build the contracts.
 **Events:**
 
 * [TokensPurchased(purchaser, beneficiary, value, amount)](private-sale-contract.md#tokenspurchased-address-purchaser-address-beneficiary-uint256-value-uint256-amount)
+* [WhitelistedAdded(account)](private-sale-contract.md#undefined)
+* [WhitelistedRemoved(account)](private-sale-contract.md#undefined)
 
 <details>
 
@@ -58,6 +65,14 @@ Contract module that helps prevent reentrant calls to a function.
 Inheriting from `ReentrancyGuard` will make the [`nonReentrant`](https://docs.openzeppelin.com/contracts/2.x/api/utils#ReentrancyGuard-nonReentrant--) modifier available, which can be applied to functions to make sure there are no nested (reentrant) calls to them.
 
 Note that because there is a single `nonReentrant` guard, functions marked as `nonReentrant` may not call one another. This can be worked around by making those functions `private`, and then adding `external` `nonReentrant` entry points to them.
+
+</details>
+
+<details>
+
+<summary>onlyWhitelisted()</summary>
+
+
 
 </details>
 
@@ -106,6 +121,38 @@ fallback function **DO NOT OVERRIDE** Note that other contracts will transfer fu
 <summary>buyTokens(address beneficiary)</summary>
 
 low level token purchase **DO NOT OVERRIDE** This function has a non-reentrancy guard, so it shouldn’t be called by another `nonReentrant` function.
+
+</details>
+
+<details>
+
+<summary>isWhitelisted(address account) → bool</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>addWhitelisted(address account)</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>removeWhitelisted(address account)</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>renounceWhitelisted()</summary>
+
+
 
 </details>
 
@@ -168,6 +215,22 @@ Determines how ETH is stored/forwarded on purchases.
 <details>
 
 <summary>TokensPurchased(address purchaser, address beneficiary, uint256 value, uint256 amount)</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>WhitelistedAdded(address account)</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>WhitelistedRemoved(address account)</summary>
 
 
 
