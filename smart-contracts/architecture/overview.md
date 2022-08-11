@@ -11,7 +11,7 @@ description: >-
 ### About the Main Contract
 
 {% hint style="info" %}
-For a detailed writeup see our guide How to implement supply mechanisms.
+I have followed general OpenZepellin guidelines to create the contracts.
 {% endhint %}
 
 We have followed general OpenZeppelin guidelines: functions revert instead of returning `false` on failure. This behavior is nonetheless conventional and does not conflict with the expectations of ERC20 applications.
