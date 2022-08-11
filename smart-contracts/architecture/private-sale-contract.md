@@ -1,7 +1,7 @@
 ---
 description: >-
-  The IBEP20 interface standard to create token contracts on Binance Smart
-  Chain.
+  Private sale protocol that locks tokens from withdrawal until a period of time
+  ends.
 ---
 
 # Private Sale Contract
