@@ -53,8 +53,9 @@ I have followed general OpenZepellin guidelines to build the contracts.
 **Events:**
 
 * [TokensPurchased(purchaser, beneficiary, value, amount)](private-sale-contract.md#tokenspurchased-address-purchaser-address-beneficiary-uint256-value-uint256-amount)
-* [WhitelistedAdded(account)](private-sale-contract.md#undefined)
-* [WhitelistedRemoved(account)](private-sale-contract.md#undefined)
+*
+* [WhitelistedAdded(account)](https://docs.openzeppelin.com/contracts/2.x/api/access#WhitelistedRole-WhitelistedAdded-address-)
+* [WhitelistedRemoved(account)](https://docs.openzeppelin.com/contracts/2.x/api/access#WhitelistedRole-WhitelistedRemoved-address-)
 
 <details>
 
@@ -220,27 +221,7 @@ Determines how ETH is stored/forwarded on purchases.
 
 </details>
 
-<details>
-
-<summary>WhitelistedAdded(address account)</summary>
-
-
-
-</details>
-
-<details>
-
-<summary>WhitelistedRemoved(address account)</summary>
-
-
-
-</details>
-
 ### Validation: TimedPrivateSale (TimedPrivateSale.sol)
-
-**Modifiers:**
-
-* [onlyWhileOpen()](private-sale-contract.md#undefined)
 
 **Functions:**
 
@@ -254,14 +235,6 @@ Determines how ETH is stored/forwarded on purchases.
 **Events:**
 
 * [TimedPrivateSaleExtended(prevClosingTime, newClosingTime)](private-sale-contract.md#undefined)
-
-<details>
-
-<summary>onlyWhileOpen()</summary>
-
-Reverts if not in crowdsale time range.
-
-</details>
 
 <details>
 
