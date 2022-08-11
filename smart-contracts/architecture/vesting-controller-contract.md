@@ -199,3 +199,12 @@ Transfers ownership of the contract to a new account (`newOwner`). Can only be c
 
 
 </details>
+
+#### Imported & Utils Contracts
+
+```solidity
+import "./MainContract.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/utils/math/Math.sol";
+import "@openzeppelin/contracts/utils/math/SafeMath.sol";
+```
