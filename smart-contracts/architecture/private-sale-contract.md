@@ -14,7 +14,7 @@ The Private Sale contract is a base contract for managing the token private sale
 
 ### The Characteristics
 
-* [x] Get funded by the [MainContract.sol](overview.md#about-the-main-contract)
+* [x] Get funded by the [MainContract.sol](overview.md#about-the-main-contract) contract
 * [x] Investors must be `whitelisted`
 * [x] Able to set up post delivery schedules
 * [x] Solidity best practices
