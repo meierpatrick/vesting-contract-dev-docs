@@ -13,13 +13,14 @@ The following standard defines the implementation of APIs for token smart contra
 
 **Functions:**
 
-* `token()`
-* `wallet()`
-* `rate()`
-* `weiRaised()`
-* `buyTokens()`
-* `preValidatePurchase()`
-* `postValidatePurchase()`
+* ``[`fallback()`](private-sale-contract.md#the-fallback-function)``
+* ``[`token()`](private-sale-contract.md#undefined)``
+* ``[`wallet()`](private-sale-contract.md#undefined-1)``
+* ``[`rate()`](private-sale-contract.md#undefined-2)``
+* ``[`weiRaised()`](private-sale-contract.md#undefined-3)``
+* ``[`buyTokens()`](private-sale-contract.md#undefined)``
+* ``[`preValidatePurchase()`](private-sale-contract.md#undefined-1)``
+* ``[`postValidatePurchase()`](private-sale-contract.md#undefined-2)``
 * `deliverTokens()`
 * `proccessPurchase()`
 * `updatePurchasingState()`
@@ -29,6 +30,70 @@ The following standard defines the implementation of APIs for token smart contra
 **Events:**
 
 * `TokensPurchased()`
+
+<details>
+
+<summary>fallback ()</summary>
+
+fallback function **DO NOT OVERRIDE** Note that other contracts will transfer funds with a base gas stipend of 2300, which is not enough to call buyTokens. Consider calling buyTokens directly when purchasing tokens from a contract.
+
+</details>
+
+<details>
+
+<summary>token() → contract IBEP20</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>wallet() → address payable</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>rate() → uint256</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>weiRaised() → uint256</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>buyTokens(address beneficiary)</summary>
+
+low level token purchase **DO NOT OVERRIDE** This function has a non-reentrancy guard, so it shouldn’t be called by another `nonReentrant` function.
+
+</details>
+
+<details>
+
+<summary>preValidatePurchase(address beneficiary, uint256 weiAmount)</summary>
+
+Validation of an incoming purchase. Use require statements to revert state when conditions are not met. Use `super` in contracts that inherit from Crowdsale to extend their validations. Example from CappedCrowdsale.sol’s \_preValidatePurchase method: super.\_preValidatePurchase(beneficiary, weiAmount); require(weiRaised().add(weiAmount) ⇐ cap);
+
+</details>
+
+<details>
+
+<summary>postValidatePurchase(address beneficiary, uint256 weiAmount)</summary>
+
+Validation of an executed purchase. Observe state and use revert statements to undo rollback when valid conditions are not met.
+
+</details>
 
 ### TimedPrivateSale (TimedPrivateSale.sol)
 
