@@ -151,10 +151,29 @@ Emitted when the allowance of a `spender` for an `owner` is set by a call to [`a
 
 </details>
 
+### Interface: IBEP20 (IBEP20.sol)
+
+<mark style="color:blue;">**Functions:**</mark>
+
+* totalSupply()
+* decimals()
+* symbol()
+* name()
+* getOwner()
+* balanceOf()
+* transfer()
+* allowance()
+* approve()
+* transferFrom()
+
+<mark style="color:blue;">**Events:**</mark>
+
+* Transfer()
+* Approval()
+
 ### Utils Contracts
 
 ```solidity
-import "./IBEP20.sol";
 import "@openzeppelin/contracts/proxy/TransparentUpgradeableProxy.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
