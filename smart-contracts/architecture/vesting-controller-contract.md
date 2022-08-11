@@ -8,7 +8,7 @@ description: >-
 
 ![](../../.gitbook/assets/vestingController.gif)
 
-### About the Main Contract
+### About the Vesting Controller Contract
 
 We have followed general OpenZeppelin guidelines: functions revert instead of returning `false` on failure. This behavior is nonetheless conventional and does not conflict with the expectations of ERC20 applications.
 
@@ -18,16 +18,22 @@ Finally, the non-standard [`decreaseAllowance`](https://docs.openzeppelin.com/co
 
 ### The Characteristics
 
-* Easy to use by other developers
-* Adds a lot functionality and value to apps
-* Does not negatively impact a mobile device’s CPU, battery, or data consumption
-* Plays well with other SDKs
+* [x] Easy to use by other developers
+* [x] Adds a lot functionality and value to apps
+* [x] Does not negatively impact a mobile device’s CPU, battery, or data consumption
+* [x] Plays well with other SDKs
 
+{% hint style="info" %}
+I have followed general OpenZepellin guidelines to build the contracts.
+{% endhint %}
 
+<mark style="color:blue;">**Modifiers:**</mark>
 
-Functions:
+* onlyOwner()
 
-* [`constructor(beneficiaryAddress, startTimestamp, durationSeconds)`](https://docs.openzeppelin.com/contracts/4.x/api/finance#VestingWallet-constructor-address-uint64-uint64-)
+<mark style="color:blue;">**Functions:**</mark>
+
+* <mark style="color:blue;">****</mark>[`constructor(beneficiaryAddress, startTimestamp, durationSeconds)`](https://docs.openzeppelin.com/contracts/4.x/api/finance#VestingWallet-constructor-address-uint64-uint64-)
 * [`receive()`](https://docs.openzeppelin.com/contracts/4.x/api/finance#VestingWallet-receive--)
 * [`beneficiary()`](https://docs.openzeppelin.com/contracts/4.x/api/finance#VestingWallet-beneficiary--)
 * [`start()`](https://docs.openzeppelin.com/contracts/4.x/api/finance#VestingWallet-start--)
@@ -40,8 +46,8 @@ Functions:
 * [`vestedAmount(token, timestamp)`](https://docs.openzeppelin.com/contracts/4.x/api/finance#VestingWallet-vestedAmount-address-uint64-)
 * [`_vestingSchedule(totalAllocation, timestamp)`](https://docs.openzeppelin.com/contracts/4.x/api/finance#VestingWallet-\_vestingSchedule-uint256-uint64-)
 
-Events:
+<mark style="color:blue;">**Events:**</mark>
 
-* [`EtherReleased(amount)`](https://docs.openzeppelin.com/contracts/4.x/api/finance#VestingWallet-EtherReleased-uint256-)
+* <mark style="color:blue;">****</mark>[`EtherReleased(amount)`](https://docs.openzeppelin.com/contracts/4.x/api/finance#VestingWallet-EtherReleased-uint256-)
 * [`ERC20Released(token, amount)`](https://docs.openzeppelin.com/contracts/4.x/api/finance#VestingWallet-ERC20Released-address-uint256-)
 
