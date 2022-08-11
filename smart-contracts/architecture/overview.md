@@ -6,7 +6,7 @@ description: >-
 
 # Main Contract
 
-![](<../../.gitbook/assets/Purple Modern Gradient Steps How To Start A Business Tips Infographic (800 × 370 px).svg>)
+![](../../.gitbook/assets/secondBG.gif)
 
 The following standard defines the implementation of APIs for token smart contracts. It is proposed by deriving the ERC20 protocol of Ethereum and provides the basic functionality to transfer tokens, allow tokens to be approved so they can be spent by another on-chain third party, and transfer between Binance Chain and Binance Smart Chain.
 
