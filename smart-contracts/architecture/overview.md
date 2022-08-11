@@ -181,7 +181,15 @@ Returns the amount of tokens in existence.
 
 <details>
 
-<summary></summary>
+<summary>decimals() → uint8</summary>
+
+Returns the decimals
+
+</details>
+
+<details>
+
+<summary>symbol() →string</summary>
 
 
 
@@ -189,7 +197,7 @@ Returns the amount of tokens in existence.
 
 <details>
 
-<summary></summary>
+<summary>name() →string</summary>
 
 
 
@@ -197,15 +205,7 @@ Returns the amount of tokens in existence.
 
 <details>
 
-<summary></summary>
-
-
-
-</details>
-
-<details>
-
-<summary></summary>
+<summary>getOwner(address) → uint256</summary>
 
 
 
@@ -265,17 +265,19 @@ Emits a [`Transfer`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20
 
 <details>
 
-<summary></summary>
+<summary>Transfer(address from, address to, uint256 value)</summary>
 
+Emitted when `value` tokens are moved from one account (`from`) to another (`to`).
 
+Note that `value` may be zero.
 
 </details>
 
 <details>
 
-<summary></summary>
+<summary>Approval(address owner, address spender, uint256 value)</summary>
 
-
+Emitted when the allowance of a `spender` for an `owner` is set by a call to [`approve`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#IERC20-approve-address-uint256-). `value` is the new allowance.
 
 </details>
 
