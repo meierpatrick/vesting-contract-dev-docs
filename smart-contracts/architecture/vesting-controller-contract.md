@@ -1,7 +1,5 @@
 ---
-description: >-
-  The IBEP20 interface standard to create token contracts on Binance Smart
-  Chain.
+description: Vesting scheme protocol with a cliff and vesting period.
 ---
 
 # Vesting Controller Contract
