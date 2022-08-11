@@ -58,7 +58,23 @@ I have followed general OpenZepellin guidelines to build the contracts.
 
 <details>
 
-<summary></summary>
+<summary>onlyOwner()</summary>
+
+Throws if called by any account other than the owner.
+
+</details>
+
+<details>
+
+<summary>constructor(address beneficiary, uint256 start, uint256 cliffDuration, uint256 duration, bool revocable)</summary>
+
+Creates a vesting contract that vests its balance of any ERC20 token to the beneficiary, gradually in a linear fashion until start + duration. By then all of the balance will have vested.
+
+</details>
+
+<details>
+
+<summary>beneficiary() → address</summary>
 
 
 
@@ -66,7 +82,7 @@ I have followed general OpenZepellin guidelines to build the contracts.
 
 <details>
 
-<summary></summary>
+<summary>cliff() → uint256</summary>
 
 
 
@@ -74,7 +90,7 @@ I have followed general OpenZepellin guidelines to build the contracts.
 
 <details>
 
-<summary></summary>
+<summary>start() → uint256</summary>
 
 
 
@@ -82,7 +98,7 @@ I have followed general OpenZepellin guidelines to build the contracts.
 
 <details>
 
-<summary></summary>
+<summary>duration() → uint256</summary>
 
 
 
@@ -90,7 +106,7 @@ I have followed general OpenZepellin guidelines to build the contracts.
 
 <details>
 
-<summary></summary>
+<summary>revocable() → bool</summary>
 
 
 
@@ -98,8 +114,64 @@ I have followed general OpenZepellin guidelines to build the contracts.
 
 <details>
 
-<summary></summary>
+<summary>released(address token) → uint256</summary>
 
 
+
+</details>
+
+<details>
+
+<summary>revoked(address token) → bool</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>release(contract IBEP20 token)</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>revoke(contract IERC20 token)</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>owner() → address</summary>
+
+Returns the address of the current owner.
+
+</details>
+
+<details>
+
+<summary>isOwner() → bool</summary>
+
+Returns true if the caller is the current owner.
+
+</details>
+
+<details>
+
+<summary>renounceOwnership()</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>transferOwnership(address newOwner)</summary>
+
+Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner.
 
 </details>
