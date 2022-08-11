@@ -175,3 +175,27 @@ Returns true if the caller is the current owner.
 Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner.
 
 </details>
+
+<details>
+
+<summary>TokensReleased(address token, uint256 amount)</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>TokenVestingRevoked(address token)</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>OwnershipTransferred(address previousOwner, address newOwner)</summary>
+
+
+
+</details>
