@@ -10,15 +10,14 @@ description: >-
 
 ### About the Private Sale Contract
 
-The Private Sale contract is a base contract for managing the token private sale, allowing investors to purchase tokens using bnb. This contract implements additional functionality and/or custom behavior. Only `whitelisted` users can contribute. The `processPurchase` function in the PostDelivery contract handles the post payout schedule.
+The Private Sale contract is a base contract for managing the token private sale, allowing investors to purchase tokens using bnb. This contract implements additional functionality and/or custom behavior. Only `whitelisted` users can contribute. The `processPurchase` function in the PostDelivery contract handles the payout schedule.&#x20;
 
 ### The Characteristics
 
-* [x] Get funded by the [MainContract.sol](overview.md#about-the-main-contract) contract
-* [x] Investors must be `whitelisted`
-* [x] Able to set up post delivery schedules
-* [x] Solidity best practices
-* [x] Binance verified contracts
+* [x] Get funded by the [MainContract.sol](overview.md#about-the-main-contract)
+* [x] Adds a lot functionality and value to apps
+* [x] Does not negatively impact a mobile device’s CPU, battery, or data consumption
+* [x] Plays well with other SDKs
 
 ### Core: PrivateSale (PrivateSale.sol)
 
