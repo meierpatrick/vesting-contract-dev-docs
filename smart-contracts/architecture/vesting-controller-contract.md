@@ -14,10 +14,10 @@ A token holder contract that can release its token balance gradually like a typi
 
 ### The Characteristics
 
-* [x] Easy to use by other developers
-* [x] Adds a lot functionality and value to apps
-* [x] Does not negatively impact a mobile device’s CPU, battery, or data consumption
-* [x] Plays well with other SDKs
+* [x] Get funded by the [MainContract.sol](overview.md#about-the-main-contract) contract
+* [x] Able to set up individual vesting schedules
+* [x] Solidity best practices
+* [x] Binance verified contracts
 
 ### Core: VestingController (VestingController.sol)
 
