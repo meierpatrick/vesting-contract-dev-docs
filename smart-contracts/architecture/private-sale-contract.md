@@ -177,7 +177,8 @@ Determines how ETH is stored/forwarded on purchases.
 * [closingTime()](private-sale-contract.md#undefined-1)
 * [isOpen()](private-sale-contract.md#undefined-2)
 * [hasClosed()](private-sale-contract.md#undefined-3)
-* [preValidatePurchase()](private-sale-contract.md#undefined-4)
+* [preValidatePurchase(beneficiary, weiAmount)](private-sale-contract.md#postvalidatepurchase-address-beneficiary-uint256-weiamount)
+* [extendTime(newClosingTime)](https://docs.openzeppelin.com/contracts/2.x/api/crowdsale#TimedCrowdsale-\_extendTime-uint256-)
 
 **Events:**
 
@@ -217,9 +218,17 @@ Whether private sale period has elapsed
 
 <details>
 
-<summary>preValidatePurchase ()</summary>
+<summary>preValidatePurchase(address beneficiary, uint256 weiAmount)</summary>
 
 Extend parent behavior requiring to be within the contributing period
+
+</details>
+
+<details>
+
+<summary>extendTime(uint256 newClosingTime)</summary>
+
+Extend crowdsale.
 
 </details>
 
