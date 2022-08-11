@@ -2,7 +2,7 @@
 
 I prefer to split up the contracts as much as I can.
 
-### Building Tools & Architecture
+### Architecture & Building Tools
 
 
 
