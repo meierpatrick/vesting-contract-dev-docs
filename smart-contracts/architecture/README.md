@@ -2,7 +2,17 @@
 
 ### Architecture
 
-![Smart Contract Architecture](<../../.gitbook/assets/My First Board (2).jpg>)
+{% content-ref url="overview.md" %}
+[overview.md](overview.md)
+{% endcontent-ref %}
+
+{% content-ref url="private-sale-contract.md" %}
+[private-sale-contract.md](private-sale-contract.md)
+{% endcontent-ref %}
+
+{% content-ref url="vesting-wallet-contract.md" %}
+[vesting-wallet-contract.md](vesting-wallet-contract.md)
+{% endcontent-ref %}
 
 **Programming languages:**
 
