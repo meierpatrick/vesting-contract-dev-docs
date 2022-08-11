@@ -41,7 +41,7 @@ I have followed general OpenZepellin guidelines to build the contracts.
 * [transferFrom(from, to, amount)](overview.md#undefined)
 * [approve(spender, amount)](overview.md#undefined-1)
 * [alllowance(owner, spender)](overview.md#undefined-2)
-* initialize(name, symbol, decimals address owner)
+* initialize(name, symbol, decimals, address owner)
 
 <mark style="color:blue;">**Events:**</mark>
 
