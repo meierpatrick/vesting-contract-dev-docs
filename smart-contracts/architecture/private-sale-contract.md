@@ -21,19 +21,19 @@ The following standard defines the implementation of APIs for token smart contra
 * ``[`buyTokens()`](private-sale-contract.md#undefined)``
 * ``[`preValidatePurchase()`](private-sale-contract.md#undefined-1)``
 * ``[`postValidatePurchase()`](private-sale-contract.md#undefined-2)``
-* `deliverTokens()`
-* `proccessPurchase()`
-* `updatePurchasingState()`
-* `getTokenAmount()`
-* `forwardFunds()`
+* ``[`deliverTokens()`](private-sale-contract.md#undefined)``
+* ``[`proccessPurchase()`](private-sale-contract.md#undefined-1)``
+* ``[`updatePurchasingState()`](private-sale-contract.md#undefined-2)``
+* ``[`getTokenAmount()`](private-sale-contract.md#undefined-3)``
+* ``[`forwardFunds()`](private-sale-contract.md#undefined)``
 
 **Events:**
 
-* `TokensPurchased()`
+* ``[`TokensPurchased()`](private-sale-contract.md#undefined)``
 
 <details>
 
-<summary>fallback ()</summary>
+<summary>fallback()</summary>
 
 fallback function **DO NOT OVERRIDE** Note that other contracts will transfer funds with a base gas stipend of 2300, which is not enough to call buyTokens. Consider calling buyTokens directly when purchasing tokens from a contract.
 
@@ -92,6 +92,54 @@ Validation of an incoming purchase. Use require statements to revert state when 
 <summary>postValidatePurchase(address beneficiary, uint256 weiAmount)</summary>
 
 Validation of an executed purchase. Observe state and use revert statements to undo rollback when valid conditions are not met.
+
+</details>
+
+<details>
+
+<summary>deliverTokens(address beneficiary, uint256 tokenAmount)</summary>
+
+Source of tokens. Override this method to modify the way in which the crowdsale ultimately gets and sends its tokens.
+
+</details>
+
+<details>
+
+<summary>processPurchase(address beneficiary, uint256 tokenAmount)</summary>
+
+Executed when a purchase has been validated and is ready to be executed. Doesn’t necessarily emit/send tokens.
+
+</details>
+
+<details>
+
+<summary>updatePurchasingState(address beneficiary, uint256 weiAmount)</summary>
+
+Override for extensions that require an internal state to check for validity (current user contributions, etc.)
+
+</details>
+
+<details>
+
+<summary>getTokenAmount(uint256 weiAmount) → uint256</summary>
+
+Override to extend the way in which ether is converted to tokens.
+
+</details>
+
+<details>
+
+<summary>forwardFunds()</summary>
+
+Determines how ETH is stored/forwarded on purchases.
+
+</details>
+
+<details>
+
+<summary>TokensPurchased(address purchaser, address beneficiary, uint256 value, uint256 amount)</summary>
+
+
 
 </details>
 
