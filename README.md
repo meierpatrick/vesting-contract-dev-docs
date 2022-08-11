@@ -11,7 +11,7 @@ description: >-
 
 ### About this Documentation
 
-I use a set of helpful software-building tools to build a custom BEP20 token with a post delivery private sale, and a vesting controller that can schedule vesting periods. Through this documentation, I explain how I would write the contracts.
+This documentation shows how I use a set of helpful software-building tools to build a custom BEP20 token with a post delivery private sale, and a vesting controller that can handle scheduled vesting periods. Through this documentation, I'll explain things in more detail.
 
 ### Recap of brief
 
