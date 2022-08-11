@@ -240,6 +240,13 @@ Determines how ETH is stored/forwarded on purchases.
 
 </details>
 
+#### Imported & Utils Contracts
+
+```solidity
+import "./MainContract.sol";
+import "@openzeppelin/contracts/utils/math/SafeMath.sol";
+```
+
 ### Validation: TimedPrivateSale (TimedPrivateSale.sol)
 
 <mark style="color:blue;">**Modifiers:**</mark>
@@ -323,6 +330,13 @@ Extend crowdsale.
 
 </details>
 
+#### Imported & Utils Contracts
+
+```solidity
+import "./PrivateSale.sol";
+import "@openzeppelin/contracts/utils/math/SafeMath.sol";
+```
+
 ### Distribution: PostDelivery (PostDelivery.sol)
 
 <mark style="color:blue;">**Functions:**</mark>
@@ -355,7 +369,9 @@ Overrides parent by storing due balances, and delivering tokens to the vault ins
 
 </details>
 
-### Imported & Utils Contracts
+#### Imported & Utils Contracts
 
-```
+```solidity
+import "./TimedPrivateSale.sol";
+import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 ```
