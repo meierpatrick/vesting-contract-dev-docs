@@ -21,6 +21,10 @@ The following standard defines the implementation of APIs for token smart contra
 
 ### Core: PrivateSale (PrivateSale.sol)
 
+**Modifiers:**
+
+* [nonReentrant()](private-sale-contract.md#undefined)
+
 **Functions:**
 
 * [fallback()](private-sale-contract.md#fallback)
@@ -40,6 +44,18 @@ The following standard defines the implementation of APIs for token smart contra
 **Events:**
 
 * [TokensPurchased()](private-sale-contract.md#undefined)
+
+<details>
+
+<summary>nonReentrant()</summary>
+
+Contract module that helps prevent reentrant calls to a function.
+
+Inheriting from `ReentrancyGuard` will make the [`nonReentrant`](https://docs.openzeppelin.com/contracts/2.x/api/utils#ReentrancyGuard-nonReentrant--) modifier available, which can be applied to functions to make sure there are no nested (reentrant) calls to them.
+
+Note that because there is a single `nonReentrant` guard, functions marked as `nonReentrant` may not call one another. This can be worked around by making those functions `private`, and then adding `external` `nonReentrant` entry points to them.
+
+</details>
 
 <details>
 
