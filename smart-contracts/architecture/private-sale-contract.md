@@ -165,8 +165,7 @@ Determines how ETH is stored/forwarded on purchases.
 
 **Events:**
 
-* Transfer()
-* Approval()
+* [TimedPrivateSaleExtended(prevClosingTime, newClosingTime)](private-sale-contract.md#undefined)
 
 <details>
 
@@ -210,15 +209,7 @@ Extend parent behavior requiring to be within the contributing period
 
 <details>
 
-<summary></summary>
-
-
-
-</details>
-
-<details>
-
-<summary></summary>
+<summary>TimedPrivateSaleExtended(uint256 prevClosingTime, uint256 newClosingTime)</summary>
 
 
 
