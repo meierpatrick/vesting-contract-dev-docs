@@ -22,21 +22,21 @@ The following standard defines the implementation of APIs for token smart contra
 
 <mark style="color:blue;">**Functions:**</mark>
 
-* ``[`name()`](overview.md#name-string)``
-* ``[`symbol()`](overview.md#symbol-string)``
-* ``[`decimals()`](overview.md#decimals-uint8)``
-* ``[`totalSupply()`](overview.md#undefined)``
-* ``[`balanceOf(account)`](overview.md#undefined-1)``
-* ``[`getOwner()`](overview.md#undefined-2)``
-* ``[`transfer(to, amount)`](overview.md#transferfrom-address-from-address-to-uint256-amount-bool)``
-* ``[`transferFrom(from, to, amount)`](overview.md#undefined)``
-* ``[`approve(spender, amount)`](overview.md#undefined-1)``
-* ``[`alllowance(owner, spender)`](overview.md#undefined-2)``
+* [name()](overview.md#name-string)
+* [symbol()](overview.md#symbol-string)
+* [decimals()](overview.md#decimals-uint8)
+* [totalSupply()](overview.md#undefined)
+* [balanceOf(account)](overview.md#undefined-1)
+* [getOwner()](overview.md#undefined-2)
+* [transfer(to, amount)](overview.md#transferfrom-address-from-address-to-uint256-amount-bool)
+* [transferFrom(from, to, amount)](overview.md#undefined)
+* [approve(spender, amount)](overview.md#undefined-1)
+* [alllowance(owner, spender)](overview.md#undefined-2)
 
 <mark style="color:blue;">**Events:**</mark>
 
-* ``[`Transfer()`](overview.md#undefined)``
-* ``[`Approval()`](overview.md#undefined)``
+* [Transfer()](overview.md#transfer-address-from-address-to-uint256-value)
+* [Approval()](overview.md#approval-address-owner-address-spender-uint256-value)
 
 <details>
 
