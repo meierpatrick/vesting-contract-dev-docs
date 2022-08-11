@@ -41,7 +41,6 @@ I have followed general OpenZepellin guidelines to build the contracts.
 * [transferFrom(from, to, amount)](overview.md#undefined)
 * [approve(spender, amount)](overview.md#undefined-1)
 * [alllowance(owner, spender)](overview.md#undefined-2)
-* initialize(name, symbol, decimals, address owner)
 
 <mark style="color:blue;">**Events:**</mark>
 
@@ -206,7 +205,7 @@ Returns the decimals
 
 <details>
 
-<summary>getOwner(address) → uint256</summary>
+<summary>getOwner(address)</summary>
 
 
 
