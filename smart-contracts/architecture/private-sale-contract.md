@@ -19,7 +19,7 @@ The following standard defines the implementation of APIs for token smart contra
 * [x] Does not negatively impact a mobile device’s CPU, battery, or data consumption
 * [x] Plays well with other SDKs
 
-### PrivateSale (PrivateSale.sol)
+### Core: PrivateSale (PrivateSale.sol)
 
 **Functions:**
 
@@ -153,7 +153,7 @@ Determines how ETH is stored/forwarded on purchases.
 
 </details>
 
-### TimedPrivateSale (TimedPrivateSale.sol)
+### Validation: TimedPrivateSale (TimedPrivateSale.sol)
 
 **Functions:**
 
