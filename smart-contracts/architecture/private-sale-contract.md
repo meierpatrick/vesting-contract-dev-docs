@@ -1,12 +1,8 @@
----
-description: >-
-  The IBEP20 interface standard to create token contracts on Binance Smart
-  Chain.
----
-
 # Private Sale Contract
 
 ## About the Private Sale
+
+
 
 ![](../../.gitbook/assets/privateSale.gif)
 
