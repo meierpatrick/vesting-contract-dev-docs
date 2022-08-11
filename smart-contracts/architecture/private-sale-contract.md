@@ -216,3 +216,33 @@ Extend parent behavior requiring to be within the contributing period
 </details>
 
 ### Distribution: PostDelivery (PostDelivery.sol)
+
+**Functions:**
+
+* [withdrawTokens(beneficiary)](private-sale-contract.md#withdrawtokens-address-beneficiary)
+* [balanceOf(account)](private-sale-contract.md#balanceof-address-account-uint256)
+* [processPurchase(beneficiary, tokenAmount)](private-sale-contract.md#processpurchase-address-beneficiary-uint256-tokenamount-1)
+
+<details>
+
+<summary>withdrawTokens(address beneficiary)</summary>
+
+Withdraw tokens only after crowdsale ends.
+
+</details>
+
+<details>
+
+<summary>balanceOf(address account) → uint256</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>processPurchase(address beneficiary, uint256 tokenAmount)</summary>
+
+Overrides parent by storing due balances, and delivering tokens to the vault instead of the end user. This ensures that the tokens will be available by the time they are withdrawn (which may not be the case if `_deliverTokens` was called later).
+
+</details>
