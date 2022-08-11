@@ -31,30 +31,30 @@ I have followed general OpenZepellin guidelines to build the contracts.
 
 <mark style="color:blue;">**Modifiers:**</mark>
 
-* onlyOwner()
+* [onlyOwner()](vesting-controller-contract.md#onlyowner)
 
 <mark style="color:blue;">**Functions:**</mark>
 
-* constructor (beneficiary, start, cliffDuration, duration, revocable)
-* beneficiary()
-* cliff()
-* start()
-* duration()
-* revocable()
-* released(token)
-* revoked(token)
-* release(token)
-* revoke(token)
-* owner()
-* isOwner()
-* renounceOwnership()
-* transferOwnership(newOwner)
+* [constructor (beneficiary, start, cliffDuration, duration, revocable)](vesting-controller-contract.md#constructor-address-beneficiary-uint256-start-uint256-cliffduration-uint256-duration-bool-revocable)
+* [beneficiary()](vesting-controller-contract.md#beneficiary-address)
+* [cliff()](vesting-controller-contract.md#cliff-uint256)
+* [start()](vesting-controller-contract.md#start-uint256)
+* [duration()](vesting-controller-contract.md#duration-uint256)
+* [revocable()](vesting-controller-contract.md#revocable-bool)
+* [released(token)](vesting-controller-contract.md#released-address-token-uint256)
+* [revoked(token)](vesting-controller-contract.md#revoked-address-token-bool)
+* [release(token)](vesting-controller-contract.md#release-contract-ibep20-token)
+* [revoke(token)](vesting-controller-contract.md#revoke-contract-ierc20-token)
+* [owner()](vesting-controller-contract.md#owner-address)
+* [isOwner()](vesting-controller-contract.md#isowner-bool)
+* [renounceOwnership()](vesting-controller-contract.md#renounceownership)
+* [transferOwnership(newOwner)](vesting-controller-contract.md#transferownership-address-newowner)
 
 <mark style="color:blue;">**Events:**</mark>
 
-* TokensReleased(token, amount)
-* TokensVestingRevoked(token)
-* OwnershipTransferred(previousOwner, newOwner)
+* [TokensReleased(token, amount)](vesting-controller-contract.md#undefined)
+* [TokensVestingRevoked(token)](vesting-controller-contract.md#undefined-1)
+* [OwnershipTransferred(previousOwner, newOwner)](vesting-controller-contract.md#undefined-2)
 
 <details>
 
