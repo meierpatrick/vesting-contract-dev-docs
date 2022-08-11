@@ -1,4 +1,14 @@
+---
+description: >-
+  The IBEP20 interface standard to create token contracts on Binance Smart
+  Chain.
+---
+
 # Vesting Controller Contract
+
+## About the Vesting Controller
+
+![](../../.gitbook/assets/privateSale.gif)
 
 ![](../../.gitbook/assets/vestingController.gif)
 
