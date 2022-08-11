@@ -1,6 +1,6 @@
-# Vesting Wallet Contract
+# Vesting Controller Contract
 
-
+![](../../.gitbook/assets/vestingController.gif)
 
 Welcome to the Share V1 SDK. Here you can find everything related to our SDK. For deeper dives, we recommend referencing the [**SDK Github**](https://www.github.com) repo directly.
 
