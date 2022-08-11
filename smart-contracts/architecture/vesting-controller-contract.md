@@ -27,6 +27,8 @@ Finally, the non-standard [`decreaseAllowance`](https://docs.openzeppelin.com/co
 I have followed general OpenZepellin guidelines to build the contracts.
 {% endhint %}
 
+### Core: VestingController (VestingController.sol)
+
 <mark style="color:blue;">**Modifiers:**</mark>
 
 * onlyOwner()
