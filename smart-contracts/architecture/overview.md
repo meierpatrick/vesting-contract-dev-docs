@@ -13,7 +13,9 @@ The following standard defines the implementation of APIs for token smart contra
 ### The Characteristics
 
 * [x] BEP20 standard that implements the interface IBEP20
-* [x] Upgradeable BEP20 contract
+* [x] Payable and receivable
+* [x] Upgradeable contract using initializers​
+* [x] Binance verified contracts
 
 ![](<../../.gitbook/assets/Purple Modern Gradient Steps How To Start A Business Tips Infographic.png>)
 
