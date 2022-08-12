@@ -1,6 +1,6 @@
 ---
 description: >-
-  The IBEP20 interface standard to create token contracts on Binance Smart
+  A IBEP20 interface standard to create token contracts on the Binance Smart
   Chain.
 ---
 
