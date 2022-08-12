@@ -14,8 +14,11 @@ Additionally, there are multiple custom extensions, including:
 
 Finally, there are some utilities to interact with BEP20 contracts in various ways.
 
-* [`SafeERC20`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#SafeERC20) is a wrapper around the interface that eliminates the need to handle boolean return values.
-* [`TokenTimelock`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#TokenTimelock) can hold tokens for a beneficiary until a specified time.
+* `Ownable` provides a basic access control mechanism, where there is an account (an owner) that can be granted exclusive access to specific functions.
+* `Context` delivers the current execution context, including the sender of the transaction and its data.
+* `Math` brings standard math utilities missing in the Solidity language.
+* `SafeMath` wraps over Solidity’s arithmetic operations with added overflow checks.
+* `TransparentUpgradeableProxy` implements a proxy that is upgradeable by an admin.
 
 ### Building Tools
 
