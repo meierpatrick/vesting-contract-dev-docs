@@ -197,7 +197,7 @@ Returns the decimals
 
 <summary>symbol() →string</summary>
 
-
+Returns the symbol
 
 </details>
 
@@ -205,7 +205,7 @@ Returns the decimals
 
 <summary>name() →string</summary>
 
-
+Returns the name
 
 </details>
 
@@ -213,7 +213,7 @@ Returns the decimals
 
 <summary>getOwner(address) → uint256</summary>
 
-
+Returns the owner
 
 </details>
 
@@ -233,17 +233,15 @@ Moves `amount` tokens from the caller’s account to `recipient`.
 
 Returns a boolean value indicating whether the operation succeeded.
 
-Emits a [`Transfer`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#IERC20-Transfer-address-address-uint256-) event.
-
 </details>
 
 <details>
 
 <summary>allowance(address owner, address spender) → uint256</summary>
 
-Returns the remaining number of tokens that `spender` will be allowed to spend on behalf of `owner` through [`transferFrom`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#IERC20-transferFrom-address-address-uint256-). This is zero by default.
+Returns the remaining number of tokens that `spender` will be allowed to spend on behalf of `owner` through `transferFrom`. This is zero by default.
 
-This value changes when [`approve`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#IERC20-approve-address-uint256-) or [`transferFrom`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#IERC20-transferFrom-address-address-uint256-) are called.
+This value changes when `approve` or `transferFrom` are called.
 
 </details>
 
@@ -265,8 +263,6 @@ Moves `amount` tokens from `sender` to `recipient` using the allowance mechanism
 
 Returns a boolean value indicating whether the operation succeeded.
 
-Emits a [`Transfer`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#IERC20-Transfer-address-address-uint256-) event.
-
 </details>
 
 <details>
@@ -283,7 +279,7 @@ Note that `value` may be zero.
 
 <summary>Approval(address owner, address spender, uint256 value)</summary>
 
-Emitted when the allowance of a `spender` for an `owner` is set by a call to [`approve`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#IERC20-approve-address-uint256-). `value` is the new allowance.
+Emitted when the allowance of a `spender` for an `owner` is set by a call to `approve`. `value` is the new allowance.
 
 </details>
 
