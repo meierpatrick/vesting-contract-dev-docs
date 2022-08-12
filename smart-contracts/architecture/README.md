@@ -1,28 +1,24 @@
 # Architecture
 
-I prefer to split up the contracts as much as I can.
+### Architecture
 
-### Architecture & Building Tools
+There are a few core contracts that implement the behavior specified in the EIP:
 
-#### Main Contract
+* `IBEP20`: the interface all BEP20 implementations should conform to
+* `BEP20`: the base implementation of the BEP20 interface
 
-{% content-ref url="overview.md" %}
-[overview.md](overview.md)
-{% endcontent-ref %}
+Additionally, there are multiple custom extensions, including:
 
-#### Private Sale Contract
+* designation of addresses that can create token supply ([`ERC20Mintable`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#ERC20Mintable)), with an optional maximum cap ([`ERC20Capped`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#ERC20Capped))
+* destruction of own tokens ([`ERC20Burnable`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#ERC20Burnable))
+* designation of addresses that can pause token operations for all users ([`ERC20Pausable`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#ERC20Pausable)).
 
-{% content-ref url="private-sale-contract.md" %}
-[private-sale-contract.md](private-sale-contract.md)
-{% endcontent-ref %}
+Finally, there are some utilities to interact with ERC20 contracts in various ways.
 
-#### Vesting Controller Contract
+* [`SafeERC20`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#SafeERC20) is a wrapper around the interface that eliminates the need to handle boolean return values.
+* [`TokenTimelock`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#TokenTimelock) can hold tokens for a beneficiary until a specified time.
 
-{% content-ref url="vesting-controller-contract.md" %}
-[vesting-controller-contract.md](vesting-controller-contract.md)
-{% endcontent-ref %}
-
-
+### Building Tools
 
 **Programming languages:**
 
