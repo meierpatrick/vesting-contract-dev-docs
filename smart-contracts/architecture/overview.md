@@ -10,11 +10,21 @@ description: >-
 
 ### About the Main Contract
 
-I have followed general OpenZepellin guidelines to build the contracts: functions revert instead of returning `false` on failure. This behavior is nonetheless conventional and does not conflict with the expectations of ERC20 applications.
+There are a few core contracts that implement the behavior specified in the EIP:
 
-Additionally, an [`Approval`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#IERC20-Approval-address-address-uint256-) event is emitted on calls to [`transferFrom`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#ERC20-transferFrom-address-address-uint256-). This allows applications to reconstruct the allowance for all accounts just by listening to said events. Other implementations of the EIP may not emit these events, as it isn’t required by the specification.
+* `IBEP20`: the interface all ERC20 implementations should conform to
+* `BEP20`: the base implementation of the ERC20 interface
 
-Finally, the non-standard [`decreaseAllowance`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#ERC20-decreaseAllowance-address-uint256-) and [`increaseAllowance`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#ERC20-increaseAllowance-address-uint256-) functions have been added to mitigate the well-known issues around setting allowances. See [`IERC20.approve`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#IERC20-approve-address-uint256-).
+Additionally, there are multiple custom extensions, including:
+
+* designation of addresses that can create token supply ([`ERC20Mintable`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#ERC20Mintable)), with an optional maximum cap ([`ERC20Capped`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#ERC20Capped))
+* destruction of own tokens ([`ERC20Burnable`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#ERC20Burnable))
+* designation of addresses that can pause token operations for all users ([`ERC20Pausable`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#ERC20Pausable)).
+
+Finally, there are some utilities to interact with ERC20 contracts in various ways.
+
+* [`SafeERC20`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#SafeERC20) is a wrapper around the interface that eliminates the need to handle boolean return values.
+* [`TokenTimelock`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#TokenTimelock) can hold tokens for a beneficiary until a specified time.
 
 ### The Characteristics
 
