@@ -10,7 +10,7 @@ description: >-
 
 ### About the Main Contract
 
-A standard IBEP20 interface on Binance Smart Chain to be used by other applications: from wallets to decentralized exchanges in a consistent way.
+The Main Contract is a base contract for managing the token itself and holds all necessary functions from the BEP20 standard. This standard IBEP20 interface on Binance Smart Chain is used by other applications: from wallets to decentralized exchanges in a consistent way.
 
 ### The Characteristics
 
