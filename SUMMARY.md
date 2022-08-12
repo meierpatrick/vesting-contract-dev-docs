@@ -11,5 +11,4 @@
 
 ## 🖥 Frontend <a href="#application" id="application"></a>
 
-* [Architecture](parachain/atomic-swap.md)
-  * [React](application/atomic-swap/react.md)
+* [Architecture](application/atomic-swap.md)
