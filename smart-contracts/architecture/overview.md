@@ -1,7 +1,5 @@
 ---
-description: >-
-  IBEP20 interface standard to create token contracts on the Binance Smart
-  Chain.
+description: Upgradeable BEP20 protocol on the Binance Smart Chain.
 ---
 
 # Main Contract
