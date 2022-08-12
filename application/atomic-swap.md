@@ -1,7 +1,7 @@
 # Architecture
 
 {% hint style="info" %}
-I'm still working on this
+I'm still working on these pages
 {% endhint %}
 
 #### Programming languages:
