@@ -11,6 +11,7 @@ Additionally, there are multiple custom extensions, including:
 
 * designation of addresses that can create token supply ([`ERC20Mintable`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#ERC20Mintable)), with an optional maximum cap ([`ERC20Capped`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#ERC20Capped))
 * destruction of own tokens ([`ERC20Burnable`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#ERC20Burnable))
+* contract that can release its token balance gradually like a typical vesting scheme, with a cliff and vesting period. Optionally revocable by the owner.
 * designation of addresses that can pause token operations for all users ([`ERC20Pausable`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#ERC20Pausable)).
 
 Finally, there are some utilities to interact with BEP20 contracts in various ways.
