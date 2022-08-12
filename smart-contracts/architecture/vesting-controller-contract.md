@@ -13,7 +13,7 @@ A Vesting Controller contract that can release its token balance gradually like 
 ### The Characteristics
 
 * [x] Get funded by the [MainContract.sol](overview.md#about-the-main-contract) contract
-* [x] Able to set up individual vesting schedules
+* [x] Able to set up multiple individual vesting schedules
 * [x] Solidity best practices
 * [x] Binance verified contracts
 
