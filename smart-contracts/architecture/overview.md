@@ -71,15 +71,13 @@ Returns the symbol of the token, usually a shorter version of the name.
 
 Returns the number of decimals used to get its user representation. For example, if `decimals` equals `2`, a balance of `505` tokens should be displayed to a user as `5.05` (`505 / 10 ** 2`).
 
-Tokens usually opt for a value of 18, imitating the relationship between Ether and Wei. This is the value [`ERC20`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#ERC20) uses, unless this function is overridden.
-
 </details>
 
 <details>
 
 <summary>totalSupply () → uint256</summary>
 
-
+Returns the total supply of the token.
 
 </details>
 
@@ -87,7 +85,7 @@ Tokens usually opt for a value of 18, imitating the relationship between Ether a
 
 <summary>balanceOf (address account) → uint256</summary>
 
-See [`IERC20.balanceOf`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#IERC20-balanceOf-address-).
+Returns the balance of an address
 
 </details>
 
@@ -107,15 +105,13 @@ Moves `amount` tokens from the caller’s account to `to`.
 
 Returns a boolean value indicating whether the operation succeeded.
 
-Emits a [`Transfer`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#IERC20-Transfer-address-address-uint256-) event.
-
 </details>
 
 <details>
 
 <summary>transferFrom (address from, address to, uint256 amount) → bool</summary>
 
-Emits an [`Approval`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#IERC20-Approval-address-address-uint256-) event indicating the updated allowance. This is not required by the EIP. See the note at the beginning of [`ERC20`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#ERC20).
+Emits an `Approval` event indicating the updated allowance. This is not required by the EIP.
 
 </details>
 
@@ -131,7 +127,7 @@ If `amount` is the maximum `uint256`, the allowance is not updated on `transferF
 
 <summary>allowance (address owner, address spender) → uint256</summary>
 
-See [`IERC20.allowance`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#IERC20-allowance-address-address-).
+Returns allowance
 
 </details>
 
@@ -149,7 +145,7 @@ Note that `value` may be zero.
 
 <summary>Approval (address owner, address spender, uint256 value)</summary>
 
-Emitted when the allowance of a `spender` for an `owner` is set by a call to [`approve`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#IERC20-approve-address-uint256-). `value` is the new allowance.
+Emitted when the allowance of a `spender` for an `owner` is set by a call to `approve`. `value` is the new allowance.
 
 </details>
 
@@ -157,7 +153,7 @@ Emitted when the allowance of a `spender` for an `owner` is set by a call to [`a
 
 <summary>initialize(string name, string symbol, uint8 decimals)</summary>
 
-
+Updates the contract
 
 </details>
 
