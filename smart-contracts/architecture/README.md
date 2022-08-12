@@ -9,7 +9,7 @@ There are a few core contracts that implement the behavior specified in the EIP:
 
 Additionally, there are multiple custom extensions, including:
 
-* locks token from withdrawal until the timer ends ([`PrivateSale`](private-sale-contract.md#about-the-private-sale-contract))
+* lock tokens during a private sale from withdrawal until the timer ends ([`PrivateSale`](private-sale-contract.md#about-the-private-sale-contract))
 * can release its token balance gradually like a typical vesting scheme, with a cliff and vesting period ([`VestingController`](vesting-controller-contract.md#about-the-vesting-controller-contract))
 
 Finally, there are some utilities to interact with BEP20 contracts in various ways.
