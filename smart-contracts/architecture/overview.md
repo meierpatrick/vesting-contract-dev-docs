@@ -10,7 +10,7 @@ description: >-
 
 ### About the Main Contract
 
-A standard interface on Binance Smart Chain to be used by other applications: from wallets to decentralized exchanges in a consistent way. Besides, this standard interface also extends ERC20 to facilitate cross chain transfer.
+A standard IBEP20 interface on Binance Smart Chain to be used by other applications: from wallets to decentralized exchanges in a consistent way.
 
 ### The Characteristics
 
