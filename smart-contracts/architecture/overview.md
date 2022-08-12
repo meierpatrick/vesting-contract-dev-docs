@@ -10,7 +10,7 @@ description: >-
 
 ### About the Main Contract
 
-The Private Sale contract is a base contract for managing the token private sale, allowing investors to purchase tokens using bnb. This contract implements additional functionality and/or custom behavior. Only `whitelisted` users can contribute. The `processPurchase` function in the PostDelivery contract handles the post payout schedule.
+A standard interface on Binance Smart Chain to be used by other applications: from wallets to decentralized exchanges in a consistent way. Besides, this standard interface also extends ERC20 to facilitate cross chain transfer.
 
 ### The Characteristics
 
