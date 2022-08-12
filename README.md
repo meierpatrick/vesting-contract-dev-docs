@@ -1,8 +1,8 @@
 ---
 description: >-
   This documentation will guide you through the process of creating a
-  decentralized protocol that provides a private sale and secured vesting
-  mechanism.
+  decentralized protocol that implements a post delivery private sale and
+  secured vesting scheme.
 ---
 
 # Overview
