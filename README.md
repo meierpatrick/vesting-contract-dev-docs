@@ -7,7 +7,7 @@ description: >-
 
 # Overview
 
-![](.gitbook/assets/homeHero.gif)
+![](.gitbook/assets/home.gif)
 
 ### About this Documentation
 
