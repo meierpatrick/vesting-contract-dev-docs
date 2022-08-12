@@ -5,7 +5,7 @@
 There are a few core contracts that implement the behavior specified in the EIP:
 
 * ``[`IBEP20`](overview.md#interface-ibep20-ibep20.sol): the interface all BEP20 implementations should conform to
-* ``[`BEP20`](overview.md#about-the-main-contract): the base implementation of the BEP20 interface
+* ``[`BEP20`](overview.md#core-maincontract-maincontract.sol): the base implementation of the BEP20 interface
 
 Additionally, there are multiple custom extensions, including:
 
