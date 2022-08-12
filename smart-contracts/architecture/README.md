@@ -13,7 +13,7 @@ Additionally, there are multiple custom extensions, including:
 * destruction of own tokens ([`ERC20Burnable`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#ERC20Burnable))
 * designation of addresses that can pause token operations for all users ([`ERC20Pausable`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#ERC20Pausable)).
 
-Finally, there are some utilities to interact with ERC20 contracts in various ways.
+Finally, there are some utilities to interact with BEP20 contracts in various ways.
 
 * [`SafeERC20`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#SafeERC20) is a wrapper around the interface that eliminates the need to handle boolean return values.
 * [`TokenTimelock`](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#TokenTimelock) can hold tokens for a beneficiary until a specified time.
