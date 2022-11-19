@@ -2,7 +2,7 @@
 
 * [Overview](README.md)
 
-## ⛓ Backend <a href="#smart-contracts" id="smart-contracts"></a>
+## ⛓ ARA - Blockchain <a href="#smart-contracts" id="smart-contracts"></a>
 
 * [Architecture](smart-contracts/architecture/README.md)
   * [Main Contract](smart-contracts/architecture/overview.md)
