@@ -1,10 +1,9 @@
 # Table of contents
 
-* [Overview](README.md)
+* [Intro to ARA](README.md)
 
 ## ⛓ ARA - Blockchain <a href="#smart-contracts" id="smart-contracts"></a>
 
-* [Intro to ARA](smart-contracts/intro-to-ara.md)
 * [Architecture](smart-contracts/architecture/README.md)
   * [Consensus mechanisms](smart-contracts/architecture/consensus-mechanisms.md)
   * [Modules/Pallets](smart-contracts/architecture/modules-pallets.md)
