@@ -11,7 +11,12 @@
   * [Main Contract](smart-contracts/architecture/overview.md)
   * [Private Sale Contract](smart-contracts/architecture/private-sale-contract.md)
   * [Vesting Controller Contract](smart-contracts/architecture/vesting-controller-contract.md)
-* [Develop](smart-contracts/develop.md)
+* [Develop](smart-contracts/develop/README.md)
+  * [Getting started](smart-contracts/develop/getting-started.md)
+
+## 🗒 ARA - Contracts
+
+* [Page 1](ara-contracts/page-1.md)
 
 ## 🖥 Frontend <a href="#application" id="application"></a>
 
