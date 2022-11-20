@@ -6,6 +6,7 @@
 
 * [Architecture](smart-contracts/architecture/README.md)
   * [Consensus mechanisms](smart-contracts/architecture/consensus-mechanisms.md)
+  * [Runtime](smart-contracts/architecture/runtime.md)
   * [Modules/Pallets](smart-contracts/architecture/modules-pallets.md)
   * [RPC](smart-contracts/architecture/rpc.md)
   * [Main Contract](smart-contracts/architecture/overview.md)
