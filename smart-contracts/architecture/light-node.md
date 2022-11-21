@@ -2,7 +2,7 @@
 description: Vesting scheme protocol with a cliff and vesting period.
 ---
 
-# Vesting Controller Contract
+# Light node
 
 ![](../../.gitbook/assets/vestingController.gif)
 
@@ -21,30 +21,30 @@ A Vesting Controller contract that can release its token balance gradually like 
 
 <mark style="color:blue;">**Modifiers:**</mark>
 
-* [onlyOwner()](vesting-controller-contract.md#onlyowner)
+* [onlyOwner()](light-node.md#onlyowner)
 
 <mark style="color:blue;">**Functions:**</mark>
 
-* [constructor (beneficiary, start, cliffDuration, duration, revocable)](vesting-controller-contract.md#constructor-address-beneficiary-uint256-start-uint256-cliffduration-uint256-duration-bool-revocable)
-* [beneficiary()](vesting-controller-contract.md#beneficiary-address)
-* [cliff()](vesting-controller-contract.md#cliff-uint256)
-* [start()](vesting-controller-contract.md#start-uint256)
-* [duration()](vesting-controller-contract.md#duration-uint256)
-* [revocable()](vesting-controller-contract.md#revocable-bool)
-* [released(token)](vesting-controller-contract.md#released-address-token-uint256)
-* [revoked(token)](vesting-controller-contract.md#revoked-address-token-bool)
-* [release(token)](vesting-controller-contract.md#release-contract-ibep20-token)
-* [revoke(token)](vesting-controller-contract.md#revoke-contract-ierc20-token)
-* [owner()](vesting-controller-contract.md#owner-address)
-* [isOwner()](vesting-controller-contract.md#isowner-bool)
-* [renounceOwnership()](vesting-controller-contract.md#renounceownership)
-* [transferOwnership(newOwner)](vesting-controller-contract.md#transferownership-address-newowner)
+* [constructor (beneficiary, start, cliffDuration, duration, revocable)](light-node.md#constructor-address-beneficiary-uint256-start-uint256-cliffduration-uint256-duration-bool-revocable)
+* [beneficiary()](light-node.md#beneficiary-address)
+* [cliff()](light-node.md#cliff-uint256)
+* [start()](light-node.md#start-uint256)
+* [duration()](light-node.md#duration-uint256)
+* [revocable()](light-node.md#revocable-bool)
+* [released(token)](light-node.md#released-address-token-uint256)
+* [revoked(token)](light-node.md#revoked-address-token-bool)
+* [release(token)](light-node.md#release-contract-ibep20-token)
+* [revoke(token)](light-node.md#revoke-contract-ierc20-token)
+* [owner()](light-node.md#owner-address)
+* [isOwner()](light-node.md#isowner-bool)
+* [renounceOwnership()](light-node.md#renounceownership)
+* [transferOwnership(newOwner)](light-node.md#transferownership-address-newowner)
 
 <mark style="color:blue;">**Events:**</mark>
 
-* [TokensReleased(token, amount)](vesting-controller-contract.md#undefined)
-* [TokensVestingRevoked(token)](vesting-controller-contract.md#undefined-1)
-* [OwnershipTransferred(previousOwner, newOwner)](vesting-controller-contract.md#undefined-2)
+* [TokensReleased(token, amount)](light-node.md#undefined)
+* [TokensVestingRevoked(token)](light-node.md#undefined-1)
+* [OwnershipTransferred(previousOwner, newOwner)](light-node.md#undefined-2)
 
 <details>
 
