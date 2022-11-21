@@ -5,7 +5,11 @@
 ## ⛓ ARA - Blockchain <a href="#smart-contracts" id="smart-contracts"></a>
 
 * [Architecture](smart-contracts/architecture/README.md)
-  * [Consensus mechanisms](smart-contracts/architecture/consensus-mechanisms.md)
+  * [Core components](smart-contracts/architecture/core-components/README.md)
+    * [Data storage](smart-contracts/architecture/core-components/data-storage.md)
+    * [Peer-to-peer](smart-contracts/architecture/core-components/peer-to-peer.md)
+    * [Consensus methodology](smart-contracts/architecture/core-components/consensus-methodology.md)
+    * [Processing transactions](smart-contracts/architecture/core-components/processing-transactions.md)
   * [Runtime](smart-contracts/architecture/runtime.md)
   * [Modules/Pallets](smart-contracts/architecture/modules-pallets.md)
   * [RPC](smart-contracts/architecture/rpc.md)
