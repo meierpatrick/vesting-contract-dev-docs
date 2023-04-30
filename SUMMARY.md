@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Overview](README.md)
+* [🤨 Rules and Guidelines](README.md)
 
 ## 🗒 PM - Contracts
 
